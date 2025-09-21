@@ -1,0 +1,5 @@
+.carousel-item img {
+  height: 80vh; /* or 100vh if you want full screen */
+  width: 100%;
+  object-fit: cover; /* crop edges instead of distorting */
+}

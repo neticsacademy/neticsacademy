@@ -1,0 +1,78 @@
+.courses-section {
+  padding: 80px 20px;
+  background: #f6f9fc;
+}
+
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.courses-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: #222c44;
+}
+
+.category-title {
+  font-size: 1.8rem;
+  margin: 40px 0 20px;
+  color: #bb2121; /* Netics red */
+  font-weight: 700;
+  border-left: 6px solid #6556ff;
+  padding-left: 12px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 24px;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  border-style: groove;
+    border-color: blue;
+}
+
+.course-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: rgba(187, 33, 33, 0.05); /* subtle red overlay */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    border-color: rgb(146, 15, 0);
+}
+
+.course-card h4 {
+  margin: 16px 0 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222c44;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.course-icon {
+  font-size: 40px;
+  color: #6556ff; /* purple accent */
+  margin-bottom: 12px;
+}
+
+.courses-grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+

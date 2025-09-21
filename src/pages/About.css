@@ -1,0 +1,117 @@
+.about-section {
+  padding: 80px 20px;
+  background: #f9fafc;
+  color: #222c44;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #070054;
+}
+
+.about-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: #bb2121;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  margin: 40px 0 20px;
+  color: #bb2121;
+  font-weight: 700;
+  border-left: 6px solid #6556ff;
+  padding-left: 12px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.about-card h4 {
+  font-size: 1.3rem;
+  margin: 12px 0;
+  color: #222c44;
+}
+
+.about-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.about-card ul li {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.about-icon {
+  font-size: 40px;
+  color: #6556ff;
+  margin-bottom: 10px;
+}
+
+.about-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.service-card:hover {
+  background: rgba(101, 86, 255, 0.05);
+  transform: translateY(-6px);
+}
+
+.highlight-link {
+  color: #6556ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.highlight-link:hover {
+  text-decoration: underline;
+  color: #bb2121;
+}

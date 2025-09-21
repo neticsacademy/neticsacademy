@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/neticsacademy/static/css/main.3c2bc983.css",
+    "main.js": "/neticsacademy/static/js/main.05c52497.js",
+    "static/js/453.9cc8a5d2.chunk.js": "/neticsacademy/static/js/453.9cc8a5d2.chunk.js",
+    "static/media/carousel 1.png": "/neticsacademy/static/media/carousel 1.105ef0be74045eb3851d.png",
+    "static/media/carousel2.png": "/neticsacademy/static/media/carousel2.33dc01f54c340a8921b1.png",
+    "static/media/carousel.png": "/neticsacademy/static/media/carousel.b4985254a2a403b38d19.png",
+    "static/media/bgFile.png": "/neticsacademy/static/media/bgFile.13f4e24031640a191675.png",
+    "static/media/logo-bck.png": "/neticsacademy/static/media/logo-bck.161675422f6e1146bfe8.png",
+    "static/media/logo_netics.png": "/neticsacademy/static/media/logo_netics.329a04513b60809e8d13.png",
+    "static/media/mentor4.jpg": "/neticsacademy/static/media/mentor4.909e7b0721af964dd01f.jpg",
+    "static/media/mentor1.jpg": "/neticsacademy/static/media/mentor1.cce4bf25aa4d31f6e5ab.jpg",
+    "static/media/mentor2.jpg": "/neticsacademy/static/media/mentor2.70b7412d298f89989b0d.jpg",
+    "static/media/mentor3.jpg": "/neticsacademy/static/media/mentor3.25e83519d1c9b6a616e7.jpg",
+    "index.html": "/neticsacademy/index.html",
+    "main.3c2bc983.css.map": "/neticsacademy/static/css/main.3c2bc983.css.map",
+    "main.05c52497.js.map": "/neticsacademy/static/js/main.05c52497.js.map",
+    "453.9cc8a5d2.chunk.js.map": "/neticsacademy/static/js/453.9cc8a5d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c2bc983.css",
+    "static/js/main.05c52497.js"
+  ]
+}

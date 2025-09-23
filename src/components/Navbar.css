@@ -1,69 +1,100 @@
-/* Transparent glass effect navbar */
-.navbar.navbar-expand-lg .sticky-top .custom-navbar {
-  background: rgba(212, 92, 92, 0.436); /* semi-transparent */
-  backdrop-filter: blur(12px); /* glass effect */
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
- 
-}
-*{
-  margin: 2px;
-}
-
-/* Logo + Moto */
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-.academy-name {
-  font-weight: 700;
-  color: #bb2121; /* purple brand */
-  font-size: 1.1rem;
-}
-.moto {
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: #040d4f; /* red brand */
-}
-
-/* Nav links */
-.nav-link {
-  margin: 0 12px;
-  font-weight: 500;
-  color: #222c44 !important;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-.nav-link:hover {
-  color: #010851 !important; /* purple hover */
-  transform: scale(1.05);
-}
-
-/* Register button */
-/* .register-btn {
-  background: #09015a;
-  border: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: #fff;
-  transition: all 0.3s ease;
-}
-.register-btn:hover {
-  background: #bb2121;
-  transform: translateY(-2px);
-} */
-  .btn-primary {
-    transition: background-color 0.3s ease, transform 0.2s ease;
+/* Reset unnecessary global margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  .btn-primary:hover {
+  /* Transparent glass effect navbar */
+  .navbar.custom-navbar {
+    background: rgba(212, 92, 92, 0.436); /* semi-transparent */
+    backdrop-filter: blur(12px); /* glass effect */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 0.5rem 1rem; /* reduce navbar padding */
+  }
+  
+  /* Container width reduced */
+  .navbar .container {
+    max-width: 1100px; /* reduce overall width */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* Logo + Moto */
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 0.8rem; /* reduce space between logo and text */
+  }
+  
+  .academy-name {
+    font-weight: 700;
+    color: #bb2121; 
+    font-size: 1.1rem;
+  }
+  
+  .moto {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #040d4f; 
+  }
+  
+  /* Nav links */
+  .nav-link {
+    margin: 0 8px; /* reduce spacing */
+    font-weight: 500;
+    color: #222c44 !important;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #010851 !important;
+    transform: scale(1.05);
+  }
+  
+  /* Register button */
+  .btn-outline-success {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9rem;
+    color: white;
+    padding: 0.35rem 1rem; /* reduce button size */
+  }
+  
+  .btn-success:hover {
     background-color: #790606;
     transform: translateY(-2px);
   }
-
-/* Responsive: stack moto under logo */
-@media (max-width: 768px) {
-  .brand-text {
-    display: none; /* hide moto text on very small screens */
+  /* Default navbar: transparent glass */
+.navbar.custom-navbar {
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease-in-out;
   }
-}
+  
+  /* Scrolled navbar: white background + shadow */
+  .navbar.custom-navbar.scrolled {
+    background:rgba(212, 92, 92, 0.436);;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Optional: change link colors when scrolled */
+  .navbar.custom-navbar.scrolled .nav-link {
+    color: #222c44 !important;
+  }
+  
+  .navbar.custom-navbar.scrolled .nav-link:hover {
+    color: #bb2121 !important;
+  }
+  
+  /* Responsive: stack moto under logo */
+  @media (max-width: 768px) {
+    .brand-text {
+      display: none; /* hide moto text on small screens */
+    }
+  
+    .nav-link {
+      margin: 0 4px; /* smaller spacing on mobile */
+    }
+  }

@@ -85,16 +85,16 @@ function Footer() {
         {/* Social & Footer Note */}
         <div className="text-center">
           <div className="mb-3">
-            <a href="#" className="text-white me-3 fs-5">
+            <a href="https://facebook.com" className="text-white me-3 fs-5">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="text-white me-3 fs-5">
+            <a href="https://facebook.com" className="text-white me-3 fs-5">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="text-white me-3 fs-5">
+            <a href="https://facebook.com" className="text-white me-3 fs-5">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="text-white fs-5">
+            <a href="https://facebook.com" className="text-white fs-5">
               <i className="fab fa-youtube"></i>
             </a>
           </div>

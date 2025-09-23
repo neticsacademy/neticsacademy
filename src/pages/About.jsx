@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Services from "../components/Services";
 import { FaChalkboardTeacher, FaBookOpen, FaLanguage, FaUsers } from "react-icons/fa";
 
 export default function About() {
@@ -48,31 +49,7 @@ export default function About() {
             </ul>
           </div>
         </div>
-
-        {/* Services Section */}
-        <h3 className="sub-title">Our Services</h3>
-        <div className="about-services">
-          <div className="service-card">
-            <FaUsers className="about-icon" />
-            <p>UGC NET & JRF Qualified Faculties & syllabus-based materials</p>
-          </div>
-          <div className="service-card">
-            <FaBookOpen className="about-icon" />
-            <p>Regular/Test series, Crash Courses, and PYQ Analysis</p>
-          </div>
-          <div className="service-card">
-            <FaChalkboardTeacher className="about-icon" />
-            <p>Personalized Mentoring & Routine Performance Analysis</p>
-          </div>
-          <div className="service-card">
-            <FaBookOpen className="about-icon" />
-            <p>Guidance for Research, Thesis Writing & Data Analysis</p>
-          </div>
-          <div className="service-card">
-            <FaLanguage className="about-icon" />
-            <p>Interactive, Activity-based Language Training</p>
-          </div>
-        </div>
+     <Services/>
       </div>
     </section>
   );

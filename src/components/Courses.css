@@ -1,6 +1,6 @@
 .courses-section {
-  padding: 80px 20px;
-  background: #f6f9fc;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #f6f9fc, #e8e6ff);
 }
 
 .courses-container {
@@ -10,16 +10,26 @@
 
 .courses-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 800;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #222c44;
+  position: relative;
+}
+.courses-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #6556ff;
+  margin: 12px auto 0;
+  border-radius: 2px;
 }
 
 .category-title {
   font-size: 1.8rem;
-  margin: 40px 0 20px;
-  color: #bb2121; /* Netics red */
+  margin: 50px 0 25px;
+  color: #bb2121;
   font-weight: 700;
   border-left: 6px solid #6556ff;
   padding-left: 12px;
@@ -27,52 +37,43 @@
 
 .courses-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 24px;
 }
 
 .course-card {
-  background: #fff;
   border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  padding: 40px 24px;
   text-align: center;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  color: #fff;
   position: relative;
-  border-style: groove;
-    border-color: blue;
+  cursor: pointer;
 }
 
+/* Category colors */
+.course-card.exam {
+  background: linear-gradient(145deg, #6556ff, #4135b9);
+}
+
+.course-card.lang {
+  background: linear-gradient(145deg, #bb2121, #911717);
+}
+
+/* Hover effect */
 .course-card:hover {
-  transform: translateY(-8px) scale(1.03);
-  background: rgba(187, 33, 33, 0.05); /* subtle red overlay */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-    border-color: rgb(146, 15, 0);
-}
-
-.course-card h4 {
-  margin: 16px 0 10px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #222c44;
-}
-
-.course-card p {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.5;
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  opacity: 0.95;
 }
 
 .course-icon {
-  font-size: 40px;
-  color: #6556ff; /* purple accent */
-  margin-bottom: 12px;
+  font-size: 48px;
+  margin-bottom: 16px;
 }
 
-.courses-grids {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px;
+.course-card h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
 }
-
-

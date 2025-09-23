@@ -3,9 +3,9 @@ import "./Landing.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-import img1 from "../img/companies/carousel 1.png";
-import img2 from "../img/companies/carousel2.png";
-import img3 from "../img/companies/carousel.png";
+import img1 from "../img/companies/Carousel1.png";
+import img2 from "../img/companies/4carousel2.png";
+import img3 from "../img/companies/4carousel.png";
 
 function Landing() {
   return (

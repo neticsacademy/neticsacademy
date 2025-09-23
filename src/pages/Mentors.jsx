@@ -5,7 +5,7 @@ import mentor1 from "../img/mentors/mentor1.jpg";
 import mentor2 from "../img/mentors/mentor2.jpg";
 import mentor3 from "../img/mentors/mentor3.jpg";
 import mentor4 from "../img/mentors/mentor4.jpg";
-import mentor5 from "../img/mentors/mentor4.jpg";
+import mentor5 from "../img/mentors/mentor5.png";
 import "./Mentors.css";
 
 export default function Mentors() {

@@ -1,51 +1,95 @@
 .services-section {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #f6f9fc, #e8e6ff);
+  background: #f9fafb;
 }
 
-.services-container {
+.services-wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: start;
 }
 
 .services-title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 800;
-  margin-bottom: 50px;
   color: #222c44;
+  margin-bottom: 20px;
 }
 
-.about-services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.services-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 
-.service-card {
+.service-item {
+  display: flex;
+  align-items: flex-start;
   background: #fff;
-  border-radius: 16px;
-  padding: 30px 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 20px 25px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
   transition: all 0.3s ease;
-  text-align: center;
 }
 
-.service-card:hover {
-  transform: translateY(-8px) scale(1.05);
-  background: rgba(101, 86, 255, 0.05);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+.service-item:hover {
+  transform: translateX(8px);
+  background: #f3f4ff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
-.about-icon {
-  font-size: 42px;
+.service-icon {
+  font-size: 38px;
   color: #6556ff;
-  margin-bottom: 15px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
-.service-card p {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #374151;
+.service-item h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #222c44;
+}
+
+.service-item p {
+  font-size: 0.95rem;
+  color: #555;
   line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.services-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.services-image img {
+  max-width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.about-services {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
 }

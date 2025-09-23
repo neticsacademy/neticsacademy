@@ -3,6 +3,7 @@ import Courses from "../components/Courses";
 import Itcourses from "../components/Itcourses";
 import ContactWidget from "../components/ContactWidget";
 import Mentors from "./Mentors";
+import MainPage from "../components/MainPage";
 
 
 
@@ -11,9 +12,10 @@ function Home() {
   return (
     <div>
       <Landing />
-      <Itcourses/>
+      <MainPage/>
+      <Mentors/>
       <Courses/>
-     <Mentors/>
+      <Itcourses/>
      <ContactWidget/>
     </div>
   );

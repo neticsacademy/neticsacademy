@@ -2,7 +2,7 @@
   "name": "netics-academy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://neticsacademy.github.io/netics-academy",
+  "homepage": "https://neticsacademy.github.io/neticsacademy",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -19,11 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "cross-env CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.0.0",
     "gh-pages": "^6.3.0"
   }
 }

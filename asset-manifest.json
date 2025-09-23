@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/netics-academy/static/css/main.7630e974.css",
-    "main.js": "/netics-academy/static/js/main.3eadf170.js",
-    "static/js/317.5374ea12.chunk.js": "/netics-academy/static/js/317.5374ea12.chunk.js",
+    "main.js": "/netics-academy/static/js/main.dbec6dff.js",
+    "static/js/453.9cc8a5d2.chunk.js": "/netics-academy/static/js/453.9cc8a5d2.chunk.js",
     "static/media/4carousel2.png": "/netics-academy/static/media/4carousel2.d4f71757645386b0d457.png",
     "static/media/4carousel.png": "/netics-academy/static/media/4carousel.cb1ea96467fe84f257b7.png",
     "static/media/Carousel1.png": "/netics-academy/static/media/Carousel1.9e59ac9970ccba5f9442.png",
@@ -15,11 +15,11 @@
     "static/media/mentor3.jpg": "/netics-academy/static/media/mentor3.25e83519d1c9b6a616e7.jpg",
     "index.html": "/netics-academy/index.html",
     "main.7630e974.css.map": "/netics-academy/static/css/main.7630e974.css.map",
-    "main.3eadf170.js.map": "/netics-academy/static/js/main.3eadf170.js.map",
-    "317.5374ea12.chunk.js.map": "/netics-academy/static/js/317.5374ea12.chunk.js.map"
+    "main.dbec6dff.js.map": "/netics-academy/static/js/main.dbec6dff.js.map",
+    "453.9cc8a5d2.chunk.js.map": "/netics-academy/static/js/453.9cc8a5d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7630e974.css",
-    "static/js/main.3eadf170.js"
+    "static/js/main.dbec6dff.js"
   ]
 }

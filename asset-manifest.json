@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.20522fa8.css",
-    "main.js": "./static/js/main.1bbf0e3e.js",
+    "main.css": "./static/css/main.9dec4026.css",
+    "main.js": "./static/js/main.3b7b8730.js",
     "static/js/453.d8424c75.chunk.js": "./static/js/453.d8424c75.chunk.js",
     "static/media/4carousel2.png": "./static/media/4carousel2.d4f71757645386b0d457.png",
-    "static/media/mentor5.png": "./static/media/mentor5.04b8c4758735d79cd87b.png",
+    "static/media/mentor5.png": "./static/media/mentor5.1102892fa12eae92d0bb.png",
     "static/media/4carousel.png": "./static/media/4carousel.cb1ea96467fe84f257b7.png",
     "static/media/Carousel1.png": "./static/media/Carousel1.9e59ac9970ccba5f9442.png",
-    "static/media/servicesimg.png": "./static/media/servicesimg.bc65a6926c7f01cbd534.png",
+    "static/media/logo withoutline.png": "./static/media/logo withoutline.e9b4e54ea7a71ecb73b0.png",
+    "static/media/innovation.png": "./static/media/innovation.10f50f83947cdad669fc.png",
     "static/media/bgFile.png": "./static/media/bgFile.13f4e24031640a191675.png",
     "static/media/logo-bck.png": "./static/media/logo-bck.161675422f6e1146bfe8.png",
     "static/media/logo_netics.png": "./static/media/logo_netics.329a04513b60809e8d13.png",
@@ -17,12 +18,12 @@
     "static/media/mentor2.jpg": "./static/media/mentor2.70b7412d298f89989b0d.jpg",
     "static/media/mentor3.jpg": "./static/media/mentor3.25e83519d1c9b6a616e7.jpg",
     "index.html": "./index.html",
-    "main.20522fa8.css.map": "./static/css/main.20522fa8.css.map",
-    "main.1bbf0e3e.js.map": "./static/js/main.1bbf0e3e.js.map",
+    "main.9dec4026.css.map": "./static/css/main.9dec4026.css.map",
+    "main.3b7b8730.js.map": "./static/js/main.3b7b8730.js.map",
     "453.d8424c75.chunk.js.map": "./static/js/453.d8424c75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20522fa8.css",
-    "static/js/main.1bbf0e3e.js"
+    "static/css/main.9dec4026.css",
+    "static/js/main.3b7b8730.js"
   ]
 }

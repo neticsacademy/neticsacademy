@@ -18,7 +18,7 @@ function Landing() {
         <div className="carousel-inner">
           {/* First Slide */}
           <div className="carousel-item active" data-bs-interval="4000">
-            <img src={img1} className="d-block w-100" alt="Ecotourism 1" />
+            <img src={img1} className="d-block w-100" alt="Aspirents become achivers 1" />
             <div className="carousel-caption d-none d-md-block">
               
             </div>
@@ -26,7 +26,7 @@ function Landing() {
 
           {/* Second Slide */}
           <div className="carousel-item" data-bs-interval="4000">
-            <img src={img2} className="d-block w-100" alt="Ecotourism 2" />
+            <img src={img2} className="d-block w-100" alt="Aspirents become achivers 2" />
             <div className="carousel-caption d-none d-md-block">
               <h1>Adventure Awaits You</h1>
             </div>
@@ -34,7 +34,7 @@ function Landing() {
 
           {/* Third Slide */}
           <div className="carousel-item" data-bs-interval="4000">
-            <img src={img3} className="d-block w-100" alt="Ecotourism 3" />
+            <img src={img3} className="d-block w-100" alt="Aspirents become achivers 3" />
             <div className="carousel-caption d-none d-md-block">
              
             </div>

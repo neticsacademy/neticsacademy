@@ -1,56 +1,65 @@
 import React from "react";
 import "./About.css";
-import Services from "../components/Services";
-import { FaChalkboardTeacher, FaBookOpen, FaLanguage, FaUsers } from "react-icons/fa";
+import neticsacademy from "../img/logo withoutline.png"
+import neticsit from "../img/innovation.png";
 
-export default function About() {
+function AboutUs() {
   return (
-    <section className="about-section" id="about">
+    <section className="about-section">
+      {/* Floating shapes */}
+      <div className="shape shape1"></div>
+      <div className="shape shape2"></div>
+      <div className="shape shape3"></div>
+
       <div className="about-container">
-        <h2 className="about-title">About Netics Academy</h2>
-        <p className="about-intro">
-          <strong>Netics Academy</strong> is the newest initiative by{" "}
-          <a
-            href="https://neticstrainings.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="highlight-link"
-          >
-            Netics Trainings
-          </a>{" "}
-          — dedicated to shaping <span className="highlight">Aspirants into Achievers</span>.
-          We provide specialized courses and personalized mentoring to help students excel
-          in competitive exams and master language skills for global opportunities.
+        <h1 className="about-title">About Us</h1>
+        <p className="about-description">
+          <strong>Netics</strong> empowers learners and professionals through education and technology. 
+          We operate through two dynamic divisions — <strong>Netics Academy</strong> and <strong>Netics IT Innovations</strong>.
         </p>
 
-        {/* Courses Section */}
-        <h3 className="sub-title">Our Courses</h3>
-        <div className="about-grid">
+        <div className="about-cards">
+
           <div className="about-card">
-            <FaChalkboardTeacher className="about-icon" />
-            <h4>Competitive Exams</h4>
-            <ul>
-              <li>UGC NET / JRF</li>
-              <li>K-SET</li>
-              <li>CTET</li>
-              <li>KTET</li>
-            </ul>
+            <div className="about-image-circle">
+              <img src={neticsacademy} alt="Academy" />
+            </div>
+            <div className="about-text">
+              <h2>Netics Academy</h2>
+              <p>
+                Competitive exam coaching for UGC NET, SET, KTET, CTET & language programs. We guide learners to achieve academic and professional success.
+              </p>
+            </div>
+          </div>
+
+          <div className="about-card reverse">
+            <div className="about-image-circle">
+              <img src={neticsit} alt="IT Innovations" />
+            </div>
+            <div className="about-text">
+              <h2>Netics IT Innovations</h2>
+              <p>
+                Future-ready IT courses and web development projects to help businesses and institutions grow in the digital space.
+              </p>
+            </div>
           </div>
 
           <div className="about-card">
-            <FaLanguage className="about-icon" />
-            <h4>Language Training</h4>
-            <ul>
-              <li>OET</li>
-              <li>PTE</li>
-              <li>IELTS</li>
-              <li>TOEFL</li>
-              <li>German – A1 to B2</li>
-            </ul>
+            <div className="about-image-circle">
+              <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80" alt="Founders" />
+            </div>
+            <div className="about-text">
+              <h2>Our Founders</h2>
+              <p>
+                Founded by <strong>Mr. Sivakumar</strong> and <strong>Mr. Sibi M Raj</strong>, a platform where <em>Aspirants Become Achievers</em> and <em>Innovations drive growth</em>.
+              </p>
+            </div>
           </div>
+
         </div>
-     <Services/>
       </div>
     </section>
   );
 }
+
+export default AboutUs;

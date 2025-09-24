@@ -1,33 +1,72 @@
-/* Base style */
+/* Container */
+.companies {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+/* Heading */
+.companies h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Wrapper */
+.companies-slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Track */
 .slider-track {
   display: flex;
-  width: fit-content;
-  animation: slide 15s linear infinite; 
-  border-bottom: solid 1px #e5e7eb;
+  width: calc(200%);
+  animation: slide 20s linear infinite; /* slower & smoother */
+}
+
+/* Sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.companies-slider:hover .slider-track {
+  animation-play-state: paused;
 }
 
 /* Each course link styled like a pill */
 .course-link {
-  padding: 6px 36px;
+  padding: 8px 36px;
   margin: 0 12px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   color: #670202;
-  border-color: #bb21219b; /* Red from poster */
+  border: 2px solid #bb21219b;
   border-radius: 30px;
   text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-in-out;
   white-space: nowrap;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  border-style: groove;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #fff;
 }
 
 /* Hover effect */
 .course-link:hover {
-  background-color: #1a237e; /* Dark blue from poster */
+  background: linear-gradient(135deg, #1a237e, #3949ab);
   color: #ffffff;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }

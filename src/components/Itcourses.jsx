@@ -17,10 +17,10 @@ function Itcourses() {
   return (
     <section className="companies">
       <h2>Technical courses offered by Netics IT Innovation</h2>
-      <br/>
+      <br />
       <div className="companies-slider">
         <div className="slider-track">
-          {courses.map((course, index) => (
+          {[...courses, ...courses].map((course, index) => (
             <a
               key={index}
               href="https://neticstrainings.com/"

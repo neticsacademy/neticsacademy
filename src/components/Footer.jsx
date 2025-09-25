@@ -152,13 +152,13 @@ Netics Academy Enquiry System
         {/* Social & Footer Note */}
         <div className="text-center">
           <div className="mb-3">
-            <a href="#" className="text-white me-3 fs-5">
+            <a href="https://www.facebook.com/share/16GpCYhaW4/" className="text-white me-3 fs-5">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="text-white me-3 fs-5">
-              <i className="fab fa-twitter"></i>
+            <a href="www.linkedin.com/in/netics-academy-117a0638" className="text-white me-3 fs-5">
+              <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="text-white me-3 fs-5">
+            <a href="https://www.instagram.com/neticsacademy?igsh=MXRwaTJxOHY4b2cxNg==" className="text-white me-3 fs-5">
               <i className="fab fa-instagram"></i>
             </a>
             <a href="#" className="text-white fs-5">

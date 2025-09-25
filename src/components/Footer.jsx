@@ -161,8 +161,8 @@ Netics Academy Enquiry System
             <a href="https://www.instagram.com/neticsacademy?igsh=MXRwaTJxOHY4b2cxNg==" className="text-white me-3 fs-5">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="text-white fs-5">
-              <i className="fab fa-youtube"></i>
+            <a href="https://share.google/aLHWIRA0fSgjT8hFt" className="text-white fs-5">
+              <i className="fa-solid fa-location-dot"></i>
             </a>
           </div>
           <small>

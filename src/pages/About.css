@@ -114,14 +114,38 @@
   text-align: left;
 }
 
-
 .about-text h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   color: #ff4b6a; /* soft red headings */
 }
-
+.about-text h2 a{
+  text-decoration: none;
+  color: #ff4b6a;
+}
 .about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+}
+/* Remove image version */
+.about-card.no-image {
+  justify-content: center;
+  padding: 40px;
+}
+
+.about-card.no-image .full-width {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-card.no-image h2 {
+  font-size: 2.5rem;
+  color: #ff4b6a;
+}
+
+.about-card.no-image p {
   font-size: 1.2rem;
   line-height: 1.8;
   color: #333;
@@ -136,3 +160,102 @@
   .about-text p { font-size: 1.1rem; }
   .about-image-circle img { width: 180px; height: 180px; }
 }
+
+/* services */
+
+/* .services-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+} */
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ff4b6a; /* soft red accent */
+}
+
+.services-description {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 750px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+.services-description span {
+  font-weight: 600;
+  color: #ff4b6a; /* soft red accent */
+}
+
+.services-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.services-image img {
+  max-width: 380px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  transition: transform 0.4s ease;
+}
+.services-image img:hover {
+  transform: scale(1.05);
+}
+
+.services-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  background: #f3f4ff;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  font-size: 34px;
+  color: #ff4b6a; /* soft red accent */
+  flex-shrink: 0;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .services-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-image img {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+}
+

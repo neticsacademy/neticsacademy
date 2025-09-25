@@ -6,6 +6,7 @@ import { MdLanguage } from "react-icons/md";
 export default function Courses() {
   return (
     <section className="courses-section">
+      
       <div className="courses-container">
         <h2 className="courses-title">Our Courses</h2>
 

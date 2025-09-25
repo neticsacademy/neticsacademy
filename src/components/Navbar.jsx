@@ -31,8 +31,8 @@ function Navbar() {
             className={`me-2 logo-img ${scrolled ? "scrolled" : ""}`}
           />
           <div className={`brand-text ${scrolled ? "scrolled" : ""}`}>
-            <span className="academy-name">Netics Academy</span>
-            <span className="moto">Aspirants Become Achievers</span>
+            <span className="academy-name poppins-bold ">Netics Academy</span>
+            <span className="moto poppins-regular">Aspirants Become Achievers</span>
           </div>
         </Link>
 

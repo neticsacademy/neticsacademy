@@ -53,7 +53,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <Link to="/home" className={`nav-link ${scrolled ? "scrolled" : ""}`}>Home</Link>
+              <Link to="/" className={`nav-link ${scrolled ? "scrolled" : ""}`}>Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/about" className={`nav-link ${scrolled ? "scrolled" : ""}`}>About</Link>

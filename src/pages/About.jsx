@@ -46,9 +46,9 @@ function AboutUs() {
 
           <div className="about-card">
             <div className="about-image-circle">
-              <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80" alt="Founders" />
+           
             </div>
-            <div className="about-text">
+            <div className="about-texts">
               <h2>Our Founders</h2>
               <p>
                 Founded by <strong>Mr. Sivakumar</strong> and <strong>Mr. Sibi M Raj</strong>, a platform where <em>Aspirants Become Achievers</em> and <em>Innovations drive growth</em>.

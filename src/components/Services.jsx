@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <section className="services-section">
       <div className="services-container">
-        <h2 className="services-title">Our Services</h2>
+        <h2 className="services-title">Our Expertise</h2>
         <p className="services-description">
           We Provide Expert Guidance And Personalized Training To Help You Succeed
           In Competitive Exams, Research, And Language Learning.

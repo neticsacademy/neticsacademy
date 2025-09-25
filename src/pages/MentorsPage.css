@@ -1,0 +1,76 @@
+.mentors-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;  /* same as About card width */
+  margin: 0 auto;     /* center align */
+}
+
+/* Mentor Card */
+.mentor-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 25px;
+  transition: transform 0.3s ease;
+  max-width: 100%;        /* allow full width */
+  min-height: 220px;      /* keep uniform height */
+}
+
+.mentor-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.mentor-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mentor-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e63946;
+  margin: 0;
+}
+
+.mentor-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #083d77;
+  margin: 5px 0 10px;
+}
+
+.mentor-details {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  max-height: 150px;     /* limit text height */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mentor-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: auto;
+  }
+
+  .mentor-photo {
+    margin: 0 0 15px 0;
+  }
+
+  .mentor-details {
+    max-height: none; /* let it expand on mobile */
+  }
+}

@@ -47,7 +47,7 @@
   aspect-ratio: 3 / 4; /* Makes height auto-adjust while staying proportional */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s, box-shadow 0.3s;
-  padding: 2px;
+  padding: 1px;
 }
 
 .mentor-card:hover {

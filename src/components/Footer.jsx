@@ -40,7 +40,7 @@ Netics Academy Enquiry System
 `;
 
     const subject = `Official Enquiry from ${formData.name}`;
-    window.location.href = `mailto:neticsacadey@gmail.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:neticsacademy@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(emailBody)}`;
 

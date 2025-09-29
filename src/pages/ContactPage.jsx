@@ -1,12 +1,16 @@
 import React from "react";
 import "./ContactPage.css";
+import Ugc from "../components/Ugc";
 import { FaGlobe, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 function ContactPage() {
   return (
+
     <div className="contact-container">
+      <div><Ugc/></div>
+       <div className="contact-container">
       <h4 className="contact-subtitle">NEED HELP?</h4>
-      <h2 className="contact-title">Get In Touch With Us</h2>
+      <h2 className="contact-title">GET IN TOUCH WITH US</h2>
 
       <div className="contact-grid">
         <div className="contact-card website">
@@ -56,6 +60,8 @@ function ContactPage() {
         ></iframe>
       </div>
     </div>
+    </div>
+    
   );
 }
 

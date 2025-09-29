@@ -1,17 +1,17 @@
 import React from "react";
 import "./Courses.css";
-import { FaUniversity, FaChalkboardTeacher, FaBookReader, FaSchool } from "react-icons/fa";
+import { FaUniversity, FaChalkboardTeacher, FaBookReader, FaSchool, FaGraduationCap } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
+
 
 export default function Courses() {
   return (
     <section className="courses-section">
-      
       <div className="courses-container">
-        <h2 className="courses-title">Our Courses</h2>
+        <h2 className="courses-title">OUR COURSES</h2>
 
         {/* Competitive Exams */}
-        <h3 className="category-title">Competitive Exams</h3>
+        <h3 className="category-title">COMPETITIVE EXAMS</h3>
         <div className="courses-grid">
           <div className="course-card exam">
             <FaUniversity className="course-icon" />
@@ -32,10 +32,15 @@ export default function Courses() {
             <FaSchool className="course-icon" />
             <h4>KTET</h4>
           </div>
+
+           <div className="course-card exam">
+            <FaGraduationCap className="course-icon" />
+            <h4>CSIR NET</h4>
+          </div>
         </div>
 
         {/* Language Training */}
-        <h3 className="category-title">Language Training</h3>
+        <h3 className="category-title">LANGUAGE TRAINING</h3>
         <div className="courses-grid">
           <div className="course-card lang">
             <MdLanguage className="course-icon" />

@@ -1,7 +1,7 @@
 /* General Container */
 .contact-container {
     text-align: center;
-    padding: 60px 20px;
+    
     font-family: "Poppins", sans-serif;
     background: #f9f9f9;
   }
@@ -12,6 +12,7 @@
     color: #666;
     margin-bottom: 8px;
     letter-spacing: 1px;
+    padding-top: 60px;
   }
   
   .contact-title {

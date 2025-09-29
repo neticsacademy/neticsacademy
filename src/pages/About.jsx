@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import neticsacademy from "../img/logo_netics.png";
-import neticsit from "../img/innovation.png";
+import neticsacademy from "../img/logo withoutline.png";
+import neticsit from "../img/NETICS ITINNO WITHOUTLINE.png";
 import servicesImg from "../img/servicesimg.png";
 import { FaUsers, FaBookOpen, FaChalkboardTeacher, FaLanguage } from "react-icons/fa";
 
@@ -18,10 +18,7 @@ function AboutUs() {
       <div className="about-container">
         <h1 className="about-title">About Us</h1>
         <p className="about-description">
-          <strong>Netics</strong> empowers learners and professionals through
-          education and technology. We operate through two dynamic divisions —{" "}
-          <strong>Netics Academy</strong> and{" "}
-          <strong>Netics IT Innovations</strong>.
+          <strong>NETICS</strong> is built on a vision to empower learners and professionals through education and technology. We operate through two dynamic divisions —<strong>NETICS ACADEMY</strong>  and <strong>NETICS IT INNOVATIONS</strong> — each dedicated to excellence in their respective fields.{" "}
         </p>
 
         <div className="about-cards">
@@ -31,11 +28,13 @@ function AboutUs() {
               <img src={neticsacademy} alt="Academy" />
             </div>
             <div className="about-text">
-              <h2><i class="fa-solid fa-building"></i>Netics Academy</h2>
+              <h2><i class="fa-solid fa-building"></i> NETICS ACADEMY</h2>
               <p>
-                Competitive exam coaching for UGC NET, SET, KTET, CTET &
-                language programs. We guide learners to achieve academic and
-                professional success.
+               At Netics Academy, we focus on competitive exam coaching and language training programs. 
+               With a specialized approach, we prepare aspirants for UGC NET, SET, KTET, and CTET examinations, 
+               while also offering language training that enhances communication skills and academic growth.
+                Our mission is to guide learners with the right strategies, knowledge, and mentorship to help them 
+                achieve academic and professional success.
               </p>
             </div>
           </div>
@@ -46,10 +45,13 @@ function AboutUs() {
               <img src={neticsit} alt="IT Innovations" />
             </div>
             <div className="about-text">
-              <h2><i class="fa-solid fa-building"></i><a href="https://neticstrainings.com/">Netics IT Innovations</a></h2>
+              <h2><i class="fa-solid fa-building"></i><a href="https://neticstrainings.com/"> NETICS IT INNOVATION</a></h2>
               <p>
-                Future-ready IT courses and web development projects to help
-                businesses and institutions grow in the digital space.
+                Our IT division, Netics IT Innovations, 
+                is dedicated to technology-driven learning and development.
+                 We conduct IT-related courses designed to build future-ready skills and also undertake 
+                 web development projects to support businesses and institutions in the digital space.
+
               </p>
             </div>
           </div>
@@ -57,10 +59,10 @@ function AboutUs() {
           {/* Founders - No Image */}
           <div className="about-card no-image">
             <div className="about-text full-width">
-              <h2><i class="fa-solid fa-user-group"></i>Our Founders</h2>
+              <h2><i class="fa-solid fa-user-group"></i> OUR FOUNDER</h2>
               <p>
-                Founded by <strong>Mr. Sivakumar</strong> and{" "}
-                <strong>Mr. Sibi M Raj</strong>, a platform where{" "}
+                Netics was founded by <strong>Mr. Sivakumar</strong> and Mr. <strong>Mr. Sibi M Raj</strong>, who share a passion for education and technology. With years of experience in the education sector, they envisioned Netics as a platform where{" "}
+                , a platform where{" "}
                 <em>Aspirants Become Achievers</em> and{" "}
                 <em>Innovations drive growth</em>.
               </p>
@@ -72,7 +74,7 @@ function AboutUs() {
        <section className="services-section about-section">
           
           <div className="services-container">
-            <h2 className="services-title">Our Expertise</h2>
+            <h2 className="services-title">OUR EXPERTISE</h2>
             <p className="services-description">
               We provide expert guidance and personalized training to help you
               succeed in <span>Competitive Exams</span>, <span>Research</span>, and

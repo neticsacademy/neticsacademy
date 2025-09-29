@@ -51,7 +51,7 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
-  color: #ff4b6a;
+  color: #282a5d;
 }
 .eligibility-title::after {
   content: '';
@@ -89,7 +89,7 @@
 
 .eligibility-card h4 {
   font-size: 1.8rem;
-  color: #ff4b6a;
+  color: #282a5d;
   margin-bottom: 15px;
 }
 

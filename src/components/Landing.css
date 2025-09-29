@@ -1,37 +1,33 @@
-/* Default for desktop */
-.carousel-item img {
-  height: 80vh; /* main height for large screens */
-  width: 100%;
-  object-fit: cover;
+/* Caption styling for all screens */
+.carousel-caption {
+  bottom: 20%; /* adjust vertical position */
+  text-align: center;
 }
 
-/* Medium devices (tablets, landscape phones) */
-@media (max-width: 992px) {
-  .carousel-item img {
-    height: 60vh;
-  }
-}
-
-/* Small devices (portrait phones) */
-@media (max-width: 576px) {
-  .carousel-item img {
-    height: 40vh;
-  }
-}
-
-/* Optional: make caption font responsive */
 .carousel-caption h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
 
-@media (max-width: 992px) {
+/* Tablet screens */
+@media (max-width: 1024px) {
   .carousel-caption h1 {
     font-size: 2rem;
   }
 }
 
+/* Large phones / small tablets */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Small phones */
 @media (max-width: 576px) {
   .carousel-caption h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

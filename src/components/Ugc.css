@@ -1,0 +1,13 @@
+.ugc-container {
+  background: #6556ff;       /* academy purple */
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 0;
+  border-bottom: 3px solid #bb2121; /* red accent from logo */
+}
+
+.ugc-container marquee {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+}

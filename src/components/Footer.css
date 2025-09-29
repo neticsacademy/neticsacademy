@@ -1,0 +1,16 @@
+.icon{
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+.social-icons {
+  transform: scale(1.2);
+  opacity: 0.8;
+}

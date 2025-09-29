@@ -1,23 +1,37 @@
-/* About Section */
+/* ======= MainPage.css ======= */
+
 .about-section {
   background: #ffffff;
   overflow: hidden;
+  width: 100%;
 }
 
-/* Left Image Full Height */
+/* Image Column (desktop) */
 .about-image-col {
   position: relative;
 }
 
 .about-hero-img {
   width: 100%;
-  height: 100%;
+  height:100%;
   object-fit: cover;
+}
+
+/* Inline image for mobile inside content */
+.mobile-inline-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-hero-img-inline {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 /* Headings */
 .about-heading {
-
   font-weight: 700;
   color: #fc0000;
 }
@@ -28,34 +42,37 @@
   color: #555;
 }
 
-/* Vision & Mission Titles */
-.about-title {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #2c3e50;
-}
-
-/* Card Styling */
-.about-card {
+/* Feature Box (Vision/Mission) */
+.feature-box {
   border-radius: 12px;
+  background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
 }
 
-.about-card:hover {
+.feature-box:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Card Images */
-.about-img {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  height: 160px;
-  object-fit: cover;
+/* Icon Cards */
+.icon-card {
+  border-radius: 10px;
+  background: #fdfdfd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
-/* Read More Button */
+.icon-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+  background: #eef5ff;
+}
+
+.icon-card:hover .icon {
+  color: #007bff;
+}
+
+/* Button */
 .about-section .btn-primary {
   border-radius: 50px;
   padding: 10px 24px;
@@ -67,50 +84,68 @@
 
 .about-section .btn-primary:hover {
   background: #0056b3;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-/* Text Styling */
+/* Paragraph text */
 .about-section p {
   line-height: 1.6;
   font-size: 0.95rem;
 }
-.icon-card {
-  border-radius: 10px;
-  background: #fdfdfd;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-  cursor: pointer;
-}
 
-.icon-card:hover {
-  transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
-  background: #bdd1f3;
-}
+/* ======= Responsive Styles ======= */
 
-/* .icon {
-  display: block;
-  transition: color 0.3s ease;
-} */
+/* Large devices and up (≥992px) */
+/* (Default layout) */
 
-.icon-card:hover .icon {
-  color: #007bff;
-}
-
-/* Responsive Tweaks */
+/* Medium / Tablets (<992px) */
 @media (max-width: 992px) {
   .about-heading {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
   }
   .about-subtitle {
-    text-align: center;
+    text-align: left;
   }
   .about-section .btn-primary {
+    margin: 0 auto 20px;
     display: block;
-    margin: 0 auto;
   }
-  .about-card {
-    margin-bottom: 15px;
+  .about-hero-img {
+    height: auto;
+  }
+}
+
+/* Small / Mobile (<768px) */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 20px;
+  }
+  .about-heading {
+    font-size: 1.75rem;
+  }
+  .about-subtitle {
+    font-size: 1rem;
+  }
+  .vision-mission .col-md-6,
+  .row.g-3 > [class*="col-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Very small phones (<480px) */
+@media (max-width: 480px) {
+  .about-heading {
+    font-size: 1.5rem;
+  }
+  .about-subtitle {
+    font-size: 0.9rem;
+  }
+  .about-section p {
+    font-size: 0.85rem;
+  }
+  .icon-card h6 {
+    font-size: 0.9rem;
   }
 }

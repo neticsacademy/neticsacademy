@@ -10,7 +10,7 @@ export default function Services() {
       <div className="shape shape2"></div>
       <div className="shape shape3"></div>
       <div className="services-container">
-        <h2 className="services-title">Our Expertise</h2>
+        <h2 className="services-title">OUR EXPERTISE</h2>
         <p className="services-description">
           We provide expert guidance and personalized training to help you
           succeed in <span>Competitive Exams</span>, <span>Research</span>, and

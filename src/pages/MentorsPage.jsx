@@ -1,9 +1,9 @@
 import React from "react";
 import "./MentorsPage.css";
-import mentor1 from "../img/mentors/mentor1.jpg";
-import mentor2 from "../img/mentors/mentor2.jpg";
-import mentor3 from "../img/mentors/mentor3.jpg";
-import mentor4 from "../img/mentors/mentor4.jpg";
+import mentor1 from "../img/mentors/mentor1.png";
+import mentor2 from "../img/mentors/mentor2.png";
+import mentor3 from "../img/mentors/mentor3.png";
+import mentor4 from "../img/mentors/mentor4.png";
 import mentor5 from "../img/mentors/mentor5.png";
 
 const mentorsData = [
@@ -62,7 +62,7 @@ export default function MentorsPage() {
       <div className="shape shape3"></div>
 
       <div className="mentors-container">
-        <h1 className="mentors-title">Our Mentors</h1>
+        <h1 className="mentors-title">OUR MENTORS</h1>
         <p className="mentors-description">
           Meet our expert facilitators guiding your journey to success
         </p>

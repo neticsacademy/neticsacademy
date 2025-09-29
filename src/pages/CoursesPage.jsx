@@ -1,15 +1,20 @@
 import React from "react";
 import "./CoursePage.css";
+import Ugc from "../components/Ugc";
 
 export default function CourseEligibility() {
   return (
-    <section className="eligibility-section">
+     
+    <section>
+      <div><Ugc/></div> 
+      <div className="eligibility-section">
         <div className="shape shape1"></div>
 <div className="shape shape2"></div>
 <div className="shape shape3"></div>
 
       <div className="eligibility-container">
-        <h2 className="eligibility-title">Course Eligibility & Rules</h2>
+        <h2 className="eligibility-title">Everything You Need to Know: <br />
+           ELIGIBILITY & RULES</h2>
 
         {/* Competitive Exams */}
         <h3 className="category-title">Competitive Exams</h3>
@@ -147,6 +152,7 @@ export default function CourseEligibility() {
             <li>Certification accepted for academic and professional purposes.</li>
           </ul>
         </div>
+      </div>
       </div>
     </section>
   );

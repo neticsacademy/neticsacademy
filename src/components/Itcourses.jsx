@@ -16,7 +16,7 @@ function Itcourses() {
 
   return (
     <section className="companies">
-      <h2>Technical courses offered by Netics IT Innovation</h2>
+      <h2 className="title">Technical courses offered by Netics IT Innovation</h2>
       <br />
       <div className="companies-slider">
         <div className="slider-track">

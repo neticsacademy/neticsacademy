@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import logo from "../img/logo-bck.png";
+import fac from "../img/communication.png";
+import inst from "../img/instagram.png";
+import linkdn from "../img/linkedin.png";
+import loc from "../img/google-maps.png";
+import "./Footer.css"; 
+
 
 function Footer() {
   const [formData, setFormData] = useState({
@@ -70,7 +76,7 @@ Netics Academy Enquiry System
             </p>
             <p className="mb-2">
               <i className="fas fa-phone me-2 text-success"></i>
-              +91 8086024700
+              +91 8086024 700
             </p>
           </div>
 
@@ -84,7 +90,7 @@ Netics Academy Enquiry System
                 className="fw-bold mb-4 text-center"
                 style={{ color: "#003366" }}
               >
-                Official Enquiry Form
+                Enquiry Form
               </h5>
               <p className="small text-muted mb-4 text-center">
                 Please fill in your details and enquiry. Our team will respond promptly.
@@ -152,18 +158,22 @@ Netics Academy Enquiry System
         {/* Social & Footer Note */}
         <div className="text-center">
           <div className="mb-3">
-            <a href="https://www.facebook.com/share/16GpCYhaW4/" className="text-white me-3 fs-5">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="www.linkedin.com/in/netics-academy-117a0638" className="text-white me-3 fs-5">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/neticsacademy?igsh=MXRwaTJxOHY4b2cxNg==" className="text-white me-3 fs-5">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="https://share.google/aLHWIRA0fSgjT8hFt" className="text-white fs-5">
-              <i className="fa-solid fa-location-dot"></i>
-            </a>
+       <div className="social-icons">
+  <a href="https://www.facebook.com/share/16GpCYhaW4/" target="_blank" rel="noreferrer">
+    <img className="icon" src={fac} alt="facebook" />
+  </a>
+  <a href="https://www.linkedin.com/in/netics-academy-117a0638" target="_blank" rel="noreferrer">
+   <img className="icon" src={linkdn} alt="linkedin" />
+  </a>
+  <a href="https://www.instagram.com/neticsacademy?igsh=MXRwaTJxOHY4b2cxNg==" target="_blank" rel="noreferrer">
+   <img className="icon" src={inst} alt="instagram" />
+  </a>
+  <a href="https://share.google/aLHWIRA0fSgjT8hFt" target="_blank" rel="noreferrer">
+    <img className="icon" src={loc} alt="G-Map" />
+  </a>
+</div>
+
+
           </div>
           <small>
             © 2025 Netics Academy {" "}

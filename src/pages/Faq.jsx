@@ -3,7 +3,7 @@ import "./Faq.css";
 
 const faqData = [
   {
-    category: "Assistant Professor Eligibility Exams (UGC NET, KSET, CTET, KETE)",
+    category: "UGC NET, KSET, CTET, KETE",
     qas: [
       { q: "Who can apply for UGC NET?", a: "Candidates who have completed or are in the final year of a Master’s degree with at least 55% marks (50% for reserved categories) are eligible." },
       { q: "What is the age limit for UGC NET?", a: "For JRF (Junior Research Fellowship), the upper age limit is 30 years (with relaxation for reserved categories). For Assistant Professor eligibility, there is no age limit." },

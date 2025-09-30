@@ -19,6 +19,9 @@ const AboutSection = () => {
               Beyond competitive exams, we also offer <span className="fw-semibold">language training programs</span> 
               to strengthen communication skills and support overall academic and professional growth.
             </p>
+            <p className="text-muted mb-4">Our mission is to empower aspirants with knowledge, skills, and confidence to achieve their goals.
+               With expert faculty, structured 
+              learning methods, and personalized mentoring, Netics Academy ensures that aspirants truly become achievers.</p>
 
             {/* On mobile: show image here */}
             <div className="mobile-inline-image d-lg-none mb-4">

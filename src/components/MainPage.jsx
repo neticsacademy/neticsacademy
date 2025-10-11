@@ -11,12 +11,12 @@ const AboutSection = () => {
 
           {/* Content (left on desktop, first on mobile) */}
           <div className="col-lg-6 d-flex flex-column justify-content-center px-5 py-5 order-1 order-lg-2 content-col">
-            <h2 className="display-5 about-heading">Netics Academy</h2>
+            <h2 className="display-5 about-heading">NETICS ACADEMY</h2>
             <p className="about-subtitle mb-4">"Aspirants Become Achievers"</p>
             <p className="text-muted mb-4">
-              At <span className="fw-semibold text-primary">Netics Academy</span>, we are committed to shaping futures through quality education and expert guidance.  
-              We specialize in coaching for <span className="fw-bold">UGC NET, SET, KTET, and CTET</span> exams.  
-              Beyond competitive exams, we also offer <span className="fw-semibold">language training programs</span> 
+              At <span className="fw-semibold text-primary">NETICS ACADEMY</span>, we are committed to shaping futures through quality education and expert guidance.  
+              We specialize in coaching for <span className="fw-bold">UGC NET, SET,CSIR NET, KTET, and CTET</span> exams.  
+              Beyond competitive exams, we also offer <span className="fw-semibold">language training programs </span> 
               to strengthen communication skills and support overall academic and professional growth.
             </p>
             <p className="text-muted mb-4">Our mission is to empower aspirants with knowledge, skills, and confidence to achieve their goals.
@@ -26,7 +26,7 @@ const AboutSection = () => {
             {/* On mobile: show image here */}
             <div className="mobile-inline-image d-lg-none mb-4">
               <img
-                src={require("../img/hero-img.jpeg")}
+                src={require("../img/hero-img.png")}
                 alt="Netics Academy"
                 className="img-fluid about-hero-img-inline"
               />
@@ -90,7 +90,7 @@ const AboutSection = () => {
           {/* Image Column (desktop, and hidden on mobile since inline image covers mobile) */}
           <div className="col-lg-6 col-12 about-image-col order-2 order-lg-1 d-none d-lg-block">
             <img
-              src={require("../img/hero-img.jpeg")}
+              src={require("../img/hero-img.png")}
               alt="Netics Academy"
               className="img-fluid about-hero-img"
             />

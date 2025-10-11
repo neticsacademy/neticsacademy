@@ -5,6 +5,11 @@ import mentor2 from "../img/mentors/mentor2.png";
 import mentor3 from "../img/mentors/mentor3.png";
 import mentor4 from "../img/mentors/mentor4.png";
 import mentor5 from "../img/mentors/mentor5.png";
+import mentor6 from "../img/mentors/mentor6.png";
+import mentor7 from "../img/mentors/mentor7.png";
+import mentor8 from "../img/mentors/mentor8.png";
+import mentor9 from "../img/mentors/mentor9.png";
+import mentor10 from "../img/mentors/mentor10.png";
 
 const mentorsData = [
   {
@@ -49,6 +54,54 @@ Passionate about empowering students, she believes in not only preparing them fo
     image: mentor2,
     details: `Ms. Ancy Angelin is a committed educator with expertise in Education and English Literature, equipping her to guide aspirants effectively in both Paper One and Paper Two of the UGC NET. She is recognized for her ability to simplify complex concepts and present them in ways that are clear, structured, and engaging.
 Her approach blends research-based methods with practical insights, helping aspirants prepare confidently. She views teaching as a journey beyond exams, fostering both academic excellence and personal growth.
+`
+  },
+  {
+    id: 6,
+    name: "Mr.Amaldev S",
+    title: "Course Facilitator – Commerce",
+    image: mentor6,
+    details: `Mr. Amaldev.S, is a Postgraduate in commerce from University of Kerala specialized in finance. Qualified UGC NET exam for pursuing PHD and prepared research paper on the topic "Night Life Tourism for Economic Blooming". Also participated in the pre-conference of 45th All India Accounting Conference & International Seminar on Accounting Education and Research jointly organised by the Indian Accounting Association, Kerala Branch and Department of Commerce, University of Kerala.
+`
+  },
+  {
+    id: 7,
+    name: "Ms. J S S Devi",
+    title: "Course Facilitator – English",
+    image: mentor7,
+    details: `J S S Devi is a UGC-NET qualified educator and academic mentor specializing in English Literature. A topper during her master’s degree, she combines academic excellence with practical expertise gained through 2 years of dedicated teaching experience as an Assistant Professor (Guest Lecturer). This blend of strong subject knowledge and classroom practice enables her to design highly effective, result-oriented learning strategies for aspirants.
+Beyond classroom teaching, she is committed to continuous academic growth, regularly updating her knowledge in literature to bring the latest insights into lectures. She views education as more than just exam preparation—it is about nurturing independent learners, future educators, and researchers who will contribute meaningfully to the academic community. She also has experience as a language trainer.
+
+`
+  },
+  {
+    id: 8,
+    name: "Ms. Anusha CM",
+    title: "Course Facilitator – Law",
+    image: mentor8,
+    details: `Ms. Anusha C M is a Law educator who had attained her LL.B Degree from Govt. Law College, Ernakulam under MG University and enrolled as advocate on Bar Council of Kerala & completed her LL.M Degree in International Law from Govt. Law College, Thiruvananthapuram under Kerala University.
+Dedicated and experienced Law educator with 10+ years of expertise in teaching and tutoring students of various ages and skill levels. Proven ability to create personalized lesson plans, effectively balance tutoring hours, and maintain strong relationships with students. Adept at using technology to enhance learning experiences and committed to providing high-quality educational support for LL.B, LL.M, KLEE, and UGC NET aspirants.
+
+`
+  },
+  {
+    id: 9,
+    name: "Ms. Aditi P Nair",
+    title: "Course Facilitator – Life Sciences",
+    image: mentor9,
+    details: `Aditi P Nair is a recent postgraduate in MSc Molecular Medicine and did her bachelor’s in Zoology. She has a strong academic foundation starting from school days which is reflected in her academic records - from being the school topper during 10th grade to graduating both her bachelor’s and master's degrees with distinction. Her research experience spans microbial techniques, cell culturing, molecular biology, bioinformatics, and animal handling.
+Aditi has qualified the CSIR-UGC NET (LS AIR 21, July 2025) and is also GATE 2025 qualified. With her academic excellence, research exposure, and teaching aptitude, she is dedicated to mentoring students for competitive examinations in life sciences, helping them build both conceptual clarity and problem-solving skills.
+
+`
+  },
+  {
+    id: 10,
+    name: "Ms. Ardra T S",
+    title: "Course Facilitator – Disaster Management",
+    image: mentor10,
+    details: `Ardra T S is a UGC-NET qualified educator and academic mentor specialising in Disaster Management. A topper during her Master’s program, she exemplifies academic excellence with strong subject knowledge and well-rounded expertise in both UGC NET Paper 1 and Disaster Management.
+She adopts a systematic, result-oriented teaching methodology, focused on building clarity, precision, and exam readiness through structured learning practices. By consistently updating her knowledge, she ensures her teaching aligns with evolving academic standards and empowers learners with current, relevant insights.
+
 `
   },
 ];

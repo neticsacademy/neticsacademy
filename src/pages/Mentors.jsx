@@ -7,6 +7,9 @@ import mentor5 from "../img/mentors/mentor5.png";
 import mentor6 from "../img/mentors/mentor6.png";
 import mentor7 from "../img/mentors/mentor7.png";
 import mentor8 from "../img/mentors/mentor8.png";
+import mentor9 from "../img/mentors/mentor9.png";
+import mentor10 from "../img/mentors/mentor10.png";
+
 import "./Mentors.css";
 
 export default function Mentors() {
@@ -19,6 +22,8 @@ export default function Mentors() {
     { title: "Education", img: mentor2 },
     { title: "English", img: mentor6},
     { title: "Law", img: mentor8},
+    { title: "Life Sciences", img: mentor9 },
+    { title: "Disaster Management", img: mentor10 },
   ];
 
   return (

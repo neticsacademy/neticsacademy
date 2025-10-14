@@ -8,7 +8,7 @@
 }
 
 .mentors-section {
-  padding: 20px 20px;
+  padding: 60px 20px;
   text-align: center;
   background: #f9f9f9;
 }
@@ -31,75 +31,127 @@
   border-radius: 5px;
 }
 
+/* === GRID LAYOUT: Full-width, 6 cards per row === */
 .mentors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  justify-items: center;
-}
-
-.mentor-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 18px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px 20px; /* row gap + column gap */
   width: 100%;
-  max-width: 320px;
-  aspect-ratio: 3 / 4; /* Makes height auto-adjust while staying proportional */
+  padding: 0 30px; /* little breathing room at edges */
+}
+
+/* === FLIP CARD EFFECT === */
+.mentor-card {
+  perspective: 1000px;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+}
+
+.mentor-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s, box-shadow 0.3s;
-  padding: 1px;
 }
 
-.mentor-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+.mentor-card:hover .mentor-inner {
+  transform: rotateY(180deg);
 }
 
-.mentor-img {
+/* === FRONT SIDE === */
+.mentor-front,
+.mentor-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.mentor-front img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 18px;
-  display: block;
 }
 
-.mentor-role {
+.mentor-front .mentor-role {
   position: absolute;
   bottom: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   letter-spacing: 0.5px;
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
   backdrop-filter: blur(4px);
 }
 
-/* Tablet */
-@media (max-width: 992px) {
-  .mentors-title {
-    font-size: 2.2rem;
-  }
-  .mentor-role {
-    font-size: 1rem;
-    padding: 12px;
+/* === BACK SIDE === */
+.mentor-back {
+  background: linear-gradient(135deg, #007bff, #4b7bec);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  text-align: center;
+}
+
+.mentor-back h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.view-profile-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #007bff;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.view-profile-btn:hover {
+  background: #282a5d;
+  color: #fff;
+}
+
+/* === RESPONSIVE BREAKPOINTS === */
+@media (max-width: 1400px) {
+  .mentors-grid {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .mentors-title {
-    font-size: 1.8rem;
+@media (max-width: 1200px) {
+  .mentors-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
-  .mentors-section {
-    padding: 50px 15px;
+}
+
+@media (max-width: 992px) {
+  .mentors-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .mentor-role {
-    font-size: 0.95rem;
-    padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .mentors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .mentors-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

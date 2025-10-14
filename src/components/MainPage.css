@@ -79,6 +79,7 @@
   font-weight: 500;
   background: #007bff;
   border: none;
+ 
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
@@ -89,6 +90,7 @@
 
 /* Paragraph text */
 .about-section p {
+  text-align: justify;
   line-height: 1.6;
   font-size: 0.95rem;
 }

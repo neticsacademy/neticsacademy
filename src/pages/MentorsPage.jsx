@@ -3,13 +3,15 @@ import "./MentorsPage.css";
 import mentor1 from "../img/mentors/mentor1.png";
 import mentor2 from "../img/mentors/mentor2.png";
 import mentor3 from "../img/mentors/mentor3.png";
-import mentor4 from "../img/mentors/mentor4.png";
 import mentor5 from "../img/mentors/mentor5.png";
 import mentor6 from "../img/mentors/mentor6.png";
 import mentor7 from "../img/mentors/mentor7.png";
 import mentor8 from "../img/mentors/mentor8.png";
 import mentor9 from "../img/mentors/mentor9.png";
 import mentor10 from "../img/mentors/mentor10.png";
+import mentor11 from "../img/mentors/mentor11.png";
+import mentor12 from "../img/mentors/mentor12.png";
+import mentor13 from "../img/mentors/mentor13.png";
 
 const mentorsData = [
   {
@@ -27,16 +29,6 @@ She is a recipient of the ASPIRE Research Award and the ICSSR Doctoral Fellowshi
     title: "Course Facilitator - Education & English",
     image: mentor1,
     details: `Ms. Jijitha Gilton is a Doctoral Scholar at the Department of Education, University of Kerala focusing upon developing an ecological language Teaching Model. Currently engaged in an International research collaboration as SPARC Fellow with Clarkson University, USA and Southampton University, UK. Holds double UGC-NET qualification in Education as well as English and has a proven track record of scholarly publications and academic presentations in sustainability and climate change. Recipient of research grants including ASPIRE Research Award and Kerala University Student Start-Up grant and experienced English educator with a background in Secondary education and Adult Literacy engagements as part of community service - Aksharashree project by Literacy Mission, Govt. of Kerala.`
-  },
-  
-  {
-    id: 4,
-    name: "Ms. Reshma Kishore",
-    title: "Course Facilitator – Economics",
-    image: mentor4,
-    details: `Ms. Reshma Kishore is an educator with over seven years of teaching and training experience across higher education and professional skill development. She holds a double Master’s degree—MA in Economics and MA in Educational Leadership—along with an MPhil in Economics and has cleared the UGC-NET in Economics.
-Her teaching career includes positions as Assistant Professor in Economics at Kerala Law Academy, Guest Lecturer at SN College, Varkala, and Higher Secondary Teacher with the Kerala Literacy Mission. She has also served as a PDOT Master Trainer with Learnnet Skills Ltd. under the Ministry of External Affairs, Government of India, delivering professional development and orientation training for adult learners. She is also included in the Kerala PSC Assistant Professor rank list in Economics.
-`
   },
   {
     id: 5,
@@ -60,7 +52,7 @@ Her approach blends research-based methods with practical insights, helping aspi
     id: 6,
     name: "Mr.Amaldev S",
     title: "Course Facilitator – Commerce",
-    image: mentor6,
+    image: mentor7,
     details: `Mr. Amaldev.S, is a Postgraduate in commerce from University of Kerala specialized in finance. Qualified UGC NET exam for pursuing PHD and prepared research paper on the topic "Night Life Tourism for Economic Blooming". Also participated in the pre-conference of 45th All India Accounting Conference & International Seminar on Accounting Education and Research jointly organised by the Indian Accounting Association, Kerala Branch and Department of Commerce, University of Kerala.
 `
   },
@@ -68,7 +60,7 @@ Her approach blends research-based methods with practical insights, helping aspi
     id: 7,
     name: "Ms. J S S Devi",
     title: "Course Facilitator – English",
-    image: mentor7,
+    image: mentor6,
     details: `J S S Devi is a UGC-NET qualified educator and academic mentor specializing in English Literature. A topper during her master’s degree, she combines academic excellence with practical expertise gained through 2 years of dedicated teaching experience as an Assistant Professor (Guest Lecturer). This blend of strong subject knowledge and classroom practice enables her to design highly effective, result-oriented learning strategies for aspirants.
 Beyond classroom teaching, she is committed to continuous academic growth, regularly updating her knowledge in literature to bring the latest insights into lectures. She views education as more than just exam preparation—it is about nurturing independent learners, future educators, and researchers who will contribute meaningfully to the academic community. She also has experience as a language trainer.
 
@@ -101,6 +93,32 @@ Aditi has qualified the CSIR-UGC NET (LS AIR 21, July 2025) and is also GATE 202
     image: mentor10,
     details: `Ardra T S is a UGC-NET qualified educator and academic mentor specialising in Disaster Management. A topper during her Master’s program, she exemplifies academic excellence with strong subject knowledge and well-rounded expertise in both UGC NET Paper 1 and Disaster Management.
 She adopts a systematic, result-oriented teaching methodology, focused on building clarity, precision, and exam readiness through structured learning practices. By consistently updating her knowledge, she ensures her teaching aligns with evolving academic standards and empowers learners with current, relevant insights.
+
+`
+  },
+  {
+    id: 11,
+    name: "Ms. Krishna R",
+    title: "Course Facilitator – Economics",
+    image: mentor11,
+    details: `Ms. Krishna R is a UGC-NET qualified educator and researcher in Economics, currently pursuing her Ph.D. at the University College, Thiruvananthapuram, under the University of Kerala. She has over five years of experience in teaching and mentoring, having served as Assistant Professor (Contract) and UGC-NET coaching faculty at reputed institutions. Her academic interests include gender economics, social inclusion, and development studies. Dedicated to creating impactful learning experiences, she blends research insights with practical teaching strategies to help learners achieve academic excellence and critical understanding.
+`
+  },
+  {
+    id: 12,
+    name: "Ms. Radhuna Mohan",
+    title: "Course Facilitator – English",
+    image: mentor12,
+    details: `Ms. Radhuna Mohan is a UGC-NET qualified educator specializing in English Literature and Language Training. She has worked as a Freelance OET Reading Trainer, helping learners enhance their reading and comprehension skills, and as a Freelance AI Prompt Writer with Outlier AI and Data Annotation, contributing to the refinement of advanced language models. Combining linguistic precision with digital innovation, she designs learner-centred strategies that integrate literary insight with modern language applications. Committed to lifelong learning, Hazel continually updates her knowledge in literature, pedagogy, and AI-driven language trends to deliver engaging, relevant instruction. For her, education goes beyond exam preparation—it inspires critical thinking, effective communication, and independent growth, empowering learners to excel in today’s academic and technological landscape.
+`
+  },
+  {
+    id: 13,
+    name: " Ms. Oshin Pandey	",
+    title: "Course Facilitator – Sociology",
+    image: mentor13,
+    details: `Ms. Oshin Pandey is a UGC-NET (2023) qualified educator and researcher currently pursuing her Ph.D. in Sociology from Maharashtra National Law University, Nagpur. Her doctoral research, “Affirmative Action and Social Stratification: A Comparative Analysis between India and the USA,” explores the intricate relationship between law, society, and inequality, reflecting her deep commitment to the study of social justice and inclusion.
+With over three years of teaching experience, Oshin has worked with reputed edtech platforms, mentoring judiciary and regulatory body aspirants across India. Her teaching style blends academic depth with practical clarity enabling students to grasp complex sociological ideas with confidence and precision.
 
 `
   },

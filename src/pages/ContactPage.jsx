@@ -15,10 +15,10 @@ function ContactPage() {
       <div className="contact-grid">
         <div className="contact-card website">
           <FaGlobe className="icon" />
-          <h3>Our Website</h3>
+          <h3>Our LinkedIn</h3>
           <p>
-            <a href="https://www.neticsacademy.com" target="_blank" rel="noopener noreferrer">
-              www.neticsacademy.com
+            <a href="https://www.linkedin.com/in/netics-academy-117a0638" target="_blank" rel="noopener noreferrer">
+              Netics Academy
             </a>
           </p>
         </div>

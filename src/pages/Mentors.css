@@ -31,20 +31,24 @@
   border-radius: 5px;
 }
 
-/* === GRID LAYOUT: Full-width, 6 cards per row === */
+/* === GRID LAYOUT === */
 .mentors-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 25px 20px; /* row gap + column gap */
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 25px 20px;
   width: 100%;
-  padding: 0 30px; /* little breathing room at edges */
+  padding: 0 30px;
+  justify-items: center;
 }
 
 /* === FLIP CARD EFFECT === */
 .mentor-card {
+  border-radius: 20px;
   perspective: 1000px;
   width: 100%;
   aspect-ratio: 3 / 4;
+  transition: transform 0.3s ease;
+  
 }
 
 .mentor-inner {
@@ -54,6 +58,7 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
 }
 
 .mentor-card:hover .mentor-inner {
@@ -68,6 +73,7 @@
   height: 100%;
   backface-visibility: hidden;
   overflow: hidden;
+  border-radius: 16px;
 }
 
 .mentor-front img {
@@ -126,32 +132,61 @@
 }
 
 /* === RESPONSIVE BREAKPOINTS === */
+
+/* Large screens */
 @media (max-width: 1400px) {
   .mentors-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-@media (max-width: 1200px) {
-  .mentors-grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
 
-@media (max-width: 992px) {
+/* Laptops */
+@media (max-width: 1200px) {
   .mentors-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 768px) {
+/* Tablets landscape */
+@media (max-width: 992px) {
   .mentors-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .mentor-card {
+    aspect-ratio: 3 / 4.2;
+  }
+  .mentors-title {
+    font-size: 2.2rem;
   }
 }
 
-@media (max-width: 480px) {
+/* Tablets portrait */
+@media (max-width: 768px) {
+  .mentors-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .mentor-front .mentor-role {
+    font-size: 0.95rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 576px) {
   .mentors-grid {
     grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .mentors-title {
+    font-size: 2rem;
+  }
+  .mentor-back h3 {
+    font-size: 1rem;
+  }
+  .view-profile-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
   }
 }

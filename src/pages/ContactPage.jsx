@@ -27,7 +27,7 @@ function ContactPage() {
           <FaPhoneAlt className="icon" />
           <h3>Call Us On</h3>
           <p>
-            <a href="tel:+918086024700">+91 80860 24700</a>
+            <a href="tel:+918086024700">+91 80860 24 700</a>
           </p>
         </div>
 

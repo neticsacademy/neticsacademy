@@ -5,7 +5,6 @@ import mentor2 from "../img/mentors/mentor2.png";
 import mentor3 from "../img/mentors/mentor3.png";
 import mentor5 from "../img/mentors/mentor5.png";
 import mentor6 from "../img/mentors/mentor6.png";
-import mentor7 from "../img/mentors/mentor7.png";
 import mentor8 from "../img/mentors/mentor8.png";
 import mentor9 from "../img/mentors/mentor9.png";
 import mentor10 from "../img/mentors/mentor10.png";
@@ -46,14 +45,6 @@ Passionate about empowering students, she believes in not only preparing them fo
     image: mentor2,
     details: `Ms. Ancy Angelin is a committed educator with expertise in Education and English Literature, equipping her to guide aspirants effectively in both Paper One and Paper Two of the UGC NET. She is recognized for her ability to simplify complex concepts and present them in ways that are clear, structured, and engaging.
 Her approach blends research-based methods with practical insights, helping aspirants prepare confidently. She views teaching as a journey beyond exams, fostering both academic excellence and personal growth.
-`
-  },
-  {
-    id: 6,
-    name: "Mr.Amaldev S",
-    title: "Course Facilitator – Commerce",
-    image: mentor7,
-    details: `Mr. Amaldev.S, is a Postgraduate in commerce from University of Kerala specialized in finance. Qualified UGC NET exam for pursuing PHD and prepared research paper on the topic "Night Life Tourism for Economic Blooming". Also participated in the pre-conference of 45th All India Accounting Conference & International Seminar on Accounting Education and Research jointly organised by the Indian Accounting Association, Kerala Branch and Department of Commerce, University of Kerala.
 `
   },
   {

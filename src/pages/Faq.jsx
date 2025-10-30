@@ -1,5 +1,6 @@
 import React from "react";
 import "./Faq.css";
+import Ugc from "../components/Ugc";
 
 const faqData = [
   {
@@ -38,6 +39,8 @@ const faqData = [
 
 export default function FaqPage() {
   return (
+  <>
+  <div><Ugc/></div>
     <section className="faq-section">
       <h2 className="faq-title">Frequently Asked Questions (FAQ)</h2>
       {faqData.map((block, blockIndex) => (
@@ -52,5 +55,6 @@ export default function FaqPage() {
         </div>
       ))}
     </section>
+    </>
   );
 }

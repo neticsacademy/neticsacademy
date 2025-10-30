@@ -22,7 +22,7 @@ export default function CourseEligibility() {
         <h3 className="category-title">Competitive Exams</h3>
 
         <div className="eligibility-card">
-          <h4>UGC NET / JRF</h4>
+          <h4>UGC/CSIR NET & JRF</h4>
           <p>
             The UGC NET exam determines eligibility for Assistant Professor and Junior Research Fellowship.
           </p>

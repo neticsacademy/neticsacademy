@@ -4,12 +4,15 @@ import neticsacademy from "../img/logo withoutline.png";
 import neticsit from "../img/NETICS ITINNO WITHOUTLINE.png";
 import servicesImg from "../img/servicesimg.png";
 import { FaUsers, FaBookOpen, FaChalkboardTeacher, FaLanguage } from "react-icons/fa";
+import Ugc from "../components/Ugc";
 
 
 function AboutUs() {
   return (
     <>
+      <div><Ugc/></div>
     <section className="about-section">
+    
       {/* Floating shapes */}
       <div className="shape shape1"></div>
       <div className="shape shape2"></div>
@@ -34,7 +37,8 @@ function AboutUs() {
               <h2><i class="fa-solid fa-building"></i> NETICS ACADEMY</h2>
               <p>
               At Netics Academy, we focus on competitive exam coaching and language training programs. 
-              With a specialized approach, we prepare aspirants for UGC NET, SET, KTET,CSIR NET and CTET examinations, 
+              With a specialized approach, we prepare aspirants for UGC/CSIR NET
+              C-TET|K-TET, SET & HSST examinations, 
               while also offering language training that enhances communication skills and academic growth. 
               Our mission is to guide learners with the right strategies, 
               knowledge, and mentorship to help them achieve academic and professional success.
@@ -65,7 +69,7 @@ function AboutUs() {
               <h2><i class="fa-solid fa-user-group"></i> OUR FOUNDER</h2>
               <p>
                 Netics was founded by <strong>Mr. Sivakumar</strong> and <strong>Mr. Sibi M Raj</strong>, who share a passion for education and technology. With years of experience in the education sector, they envisioned <strong>Netics</strong>  as a platform where{" "}
-                , a platform where{" "}
+                ,
                 <em>Aspirants Become Achievers</em> and{" "}
                 <em>Innovations drive growth</em>.
               </p>

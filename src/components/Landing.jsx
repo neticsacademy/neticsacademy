@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import Ugc from "../components/Ugc";
 import img1 from "../img/companies/Carousel1.png";
 import img2 from "../img/companies/4carousel.png";
 import img3 from "../img/companies/4carousel2.png";
@@ -61,6 +61,7 @@ function Landing() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <div><Ugc/></div>
     </section>
   );
 }

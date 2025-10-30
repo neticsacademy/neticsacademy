@@ -15,7 +15,7 @@ const AboutSection = () => {
             <p className="about-subtitle mb-4">"Aspirants Become Achievers"</p>
             <p className="text-muted mb-4">
               At <span className="fw-semibold text-primary">NETICS ACADEMY</span>, we are committed to shaping futures through quality education and expert guidance.  
-              We specialize in coaching for <span className="fw-bold">UGC NET, SET,CSIR NET, KTET, and CTET</span> exams.  
+              We specialize in coaching for <span className="fw-bold">UGC/CSIR & NET, C-TET|K-TET, SET & HSST</span> exams.  
               Beyond competitive exams, we also offer <span className="fw-semibold">language training programs </span> 
               to strengthen communication skills and support overall academic and professional growth.
             </p>

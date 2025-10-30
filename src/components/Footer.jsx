@@ -76,7 +76,7 @@ Netics Academy Enquiry System
             </p>
             <p className="mb-2">
               <i className="fas fa-phone me-2 text-success"></i>
-              +91 8086024 700
+              +91 80860 24 700
             </p>
           </div>
 

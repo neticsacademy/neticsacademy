@@ -15,14 +15,8 @@ export default function Courses() {
         <div className="courses-grid">
           <div className="course-card exam">
             <FaUniversity className="course-icon" />
-            <h4>UGC NET / JRF</h4>
+            <h4>UGC/CSIR NET & JRF</h4>
           </div>
-
-          <div className="course-card exam">
-            <FaChalkboardTeacher className="course-icon" />
-            <h4>K-SET</h4>
-          </div>
-
           <div className="course-card exam">
             <FaBookReader className="course-icon" />
             <h4>CTET</h4>
@@ -33,9 +27,14 @@ export default function Courses() {
             <h4>KTET</h4>
           </div>
 
+          <div className="course-card exam">
+            <FaChalkboardTeacher className="course-icon" />
+            <h4>K-SET</h4>
+          </div>
+
            <div className="course-card exam">
             <FaGraduationCap className="course-icon" />
-            <h4>CSIR NET</h4>
+            <h4>HSST</h4>
           </div>
         </div>
 
@@ -65,6 +64,10 @@ export default function Courses() {
           <div className="course-card lang">
             <MdLanguage className="course-icon" />
             <h4>German (A1–B2)</h4>
+          </div>
+          <div className="course-card lang">
+            <MdLanguage className="course-icon" />
+            <h4>DET</h4>
           </div>
         </div>
       </div>

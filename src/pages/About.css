@@ -209,7 +209,6 @@
 .services-image img:hover {
   transform: scale(1.05);
 }
-
 .services-grid {
   flex: 1;
   display: grid;
@@ -223,10 +222,10 @@
   padding: 24px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
-  text-align: left;
   display: flex;
   align-items: flex-start;
-  gap: 18px;
+  gap: 16px;
+  text-align: left; /* ✅ Ensures left alignment of text */
 }
 
 .service-card:hover {
@@ -237,14 +236,22 @@
 
 .service-icon {
   font-size: 34px;
-  color: #282a5d; /* soft red accent */
+  color: #282a5d;
   flex-shrink: 0;
+  margin-top: 4px; /* ✅ Aligns icon with top of text */
 }
 
 .service-card p {
   font-size: 1rem;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left; /* ✅ Explicit left alignment */
+}
+
+/* Optional: make sure text doesn't get too close to edges */
+.service-card p, .service-card .service-text {
+  flex: 1;
 }
 
 /* Responsive */

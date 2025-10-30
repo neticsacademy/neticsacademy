@@ -15,7 +15,7 @@ export default function Courses() {
         <div className="courses-grid">
           <div className="course-card exam">
             <FaUniversity className="course-icon" />
-            <h4>UGC/CSIR NET & JRF</h4>
+            <h4>UGC | CSIR NET & JRF</h4>
           </div>
           <div className="course-card exam">
             <FaBookReader className="course-icon" />

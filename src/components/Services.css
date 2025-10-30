@@ -49,39 +49,51 @@
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
-}
-
-.service-card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
-  text-align: left;
-  display: flex;
-  align-items: flex-start;
-  gap: 18px;
-}
-
-.service-card:hover {
-  transform: translateY(-8px);
-  background: #f3f4ff;
-  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
-}
-
-.service-icon {
-  font-size: 34px;
-  color: #ff4b6a; /* soft red accent */
-  flex-shrink: 0;
-}
-
-.service-card p {
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.5;
-}
-
+  .services-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  
+  .service-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: left; /* ✅ Ensures left alignment of text */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-8px);
+    background: #f3f4ff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  }
+  
+  .service-icon {
+    font-size: 34px;
+    color: #ff4b6a;
+    flex-shrink: 0;
+    margin-top: 4px; /* ✅ Aligns icon with top of text */
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left; /* ✅ Explicit left alignment */
+  }
+  
+  /* Optional: make sure text doesn't get too close to edges */
+  .service-card p, .service-card .service-text {
+    flex: 1;
+  }
+  
 /* Responsive */
 @media (max-width: 1000px) {
   .services-layout {
@@ -93,4 +105,4 @@
     margin-bottom: 30px;
   }
 }
-
+}

@@ -27,12 +27,12 @@ export default function Services() {
           <div className="services-grid">
             <div className="service-card">
               <FaUsers className="service-icon" />
-              <p>UGC NET & JRF Qualified Faculties & syllabus-based materials</p>
+              <p>UGC CSIR NET & JRF Qualified Faculties & syllabus-based materials</p>
             </div>
 
             <div className="service-card">
               <FaBookOpen className="service-icon" />
-              <p>Regular/Test series, Crash Courses, and PYQ Analysis</p>
+              <p>Regular/Test series,Crash Courses,and PYQ Analysis</p>
             </div>
 
             <div className="service-card">
@@ -42,12 +42,12 @@ export default function Services() {
 
             <div className="service-card">
               <FaBookOpen className="service-icon" />
-              <p>Guidance for Research, Thesis Writing & Data Analysis</p>
+              <p>Guidance for Research,Thesis Writing & Data Analysis</p>
             </div>
 
             <div className="service-card">
               <FaLanguage className="service-icon" />
-              <p>Interactive, Activity-based Language Training</p>
+              <p>Interactive,Activity-based Language Training</p>
             </div>
           </div>
         </div>

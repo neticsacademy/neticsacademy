@@ -98,7 +98,7 @@ function AboutUs() {
               <div className="services-grid">
                 <div className="service-card">
                   <FaUsers className="service-icon" />
-                  <p>UGC NET & JRF Qualified Faculties & syllabus-based materials</p>
+                  <p>UGC | CSIR NET & JRF Qualified Faculties & syllabus-based materials</p>
                 </div>
     
                 <div className="service-card">

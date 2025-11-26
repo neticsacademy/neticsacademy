@@ -25,7 +25,6 @@ export default function Mentors() {
     { title: "Life Sciences", img: mentor9 },
     { title: "Disaster Management", img: mentor10 },
     { title: "Economics", img: mentor11 },
-    { title: "English", img: mentor12 },
     { title: "Sociology", img: mentor13 },
   ];
 

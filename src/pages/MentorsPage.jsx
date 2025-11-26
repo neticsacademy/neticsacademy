@@ -9,7 +9,6 @@ import mentor8 from "../img/mentors/mentor8.png";
 import mentor9 from "../img/mentors/mentor9.png";
 import mentor10 from "../img/mentors/mentor10.png";
 import mentor11 from "../img/mentors/mentor11.png";
-import mentor12 from "../img/mentors/mentor12.png";
 import mentor13 from "../img/mentors/mentor13.png";
 
 const mentorsData = [
@@ -93,14 +92,6 @@ She adopts a systematic, result-oriented teaching methodology, focused on buildi
     title: "Course Facilitator – Economics",
     image: mentor11,
     details: `Ms. Krishna R is a UGC-NET qualified educator and researcher in Economics, currently pursuing her Ph.D. at the University College, Thiruvananthapuram, under the University of Kerala. She has over five years of experience in teaching and mentoring, having served as Assistant Professor (Contract) and UGC-NET coaching faculty at reputed institutions. Her academic interests include gender economics, social inclusion, and development studies. Dedicated to creating impactful learning experiences, she blends research insights with practical teaching strategies to help learners achieve academic excellence and critical understanding.
-`
-  },
-  {
-    id: 12,
-    name: "Ms. Radhuna Mohan",
-    title: "Course Facilitator – English",
-    image: mentor12,
-    details: `Ms. Radhuna Mohan is a UGC-NET qualified educator specializing in English Literature and Language Training. She has worked as a Freelance OET Reading Trainer, helping learners enhance their reading and comprehension skills, and as a Freelance AI Prompt Writer with Outlier AI and Data Annotation, contributing to the refinement of advanced language models. Combining linguistic precision with digital innovation, she designs learner-centred strategies that integrate literary insight with modern language applications. Committed to lifelong learning, Hazel continually updates her knowledge in literature, pedagogy, and AI-driven language trends to deliver engaging, relevant instruction. For her, education goes beyond exam preparation—it inspires critical thinking, effective communication, and independent growth, empowering learners to excel in today’s academic and technological landscape.
 `
   },
   {

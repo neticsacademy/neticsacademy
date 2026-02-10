@@ -63,7 +63,7 @@ function AboutUs() {
             </div>
           </div>
 
-          {/* Founders - No Image */}
+          {/* Founders - No Image 
           <div className="about-card no-image">
             <div className="about-text full-width">
               <h2><i class="fa-solid fa-user-group"></i> OUR FOUNDER</h2>
@@ -75,6 +75,7 @@ function AboutUs() {
               </p>
             </div>
           </div>
+          */}
         </div>
       </div>
     </section>

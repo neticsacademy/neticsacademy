@@ -34,12 +34,14 @@
 /* === GRID LAYOUT === */
 .mentors-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
-  gap: 25px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
   width: 100%;
-  padding: 0 30px;
-  justify-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
 }
+
 
 /* === FLIP CARD EFFECT === */
 .mentor-card {

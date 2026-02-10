@@ -4,7 +4,6 @@ import Itcourses from "../components/Itcourses";
 import ContactWidget from "../components/ContactWidget";
 import Mentors from "./Mentors";
 import MainPage from "../components/MainPage";
-import PopupNotification from "../components/PopupNotification";
 
 
 
@@ -12,7 +11,7 @@ import PopupNotification from "../components/PopupNotification";
 function Home() {
   return (
     <div>
-      <PopupNotification/>
+
       <Landing />
       <MainPage/>
       <Mentors/>

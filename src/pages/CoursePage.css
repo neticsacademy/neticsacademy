@@ -19,7 +19,32 @@
   padding: 80px 20px;
   overflow: hidden;
 }
+.it-courses-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
+  padding: 12px 24px;
+
+  background: #ff6b00;
+  color: #ffffff;
+
+  border: 1px solid #ff6b00;
+  border-radius: 5px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.it-courses-link:hover {
+  background: #ffffff;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
 /* Floating Shapes */
 .shape {
   position: absolute;

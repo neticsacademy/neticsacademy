@@ -6,12 +6,15 @@ function Itcourses() {
     "Cybersecurity",
     "Ethical Hacking",
     "CCNP",
+    "AWS",
     "Full Stack",
     "Software Testing",
-    ".NET",
+    "Playwright Automation",
     "UI/UX",
     "VLSI",
     "Embedded System",
+    "Python",
+    "Java",
   ];
 
   return (
@@ -23,7 +26,7 @@ function Itcourses() {
           {[...courses, ...courses].map((course, index) => (
             <a
               key={index}
-              href="https://neticstrainings.com/"
+              href="https://neticsacademy.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="course-link"

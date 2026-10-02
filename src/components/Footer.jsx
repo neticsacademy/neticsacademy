@@ -72,11 +72,11 @@ Netics Academy Enquiry System
             </p>
             <p className="mb-2">
               <i className="fas fa-envelope me-2 text-info"></i>
-              neticsacademy@gmail.com
+              neticsitinnovations@gmail.com
             </p>
             <p className="mb-2">
               <i className="fas fa-phone me-2 text-success"></i>
-              +91 80860 24 700
+              +91 80860 24 800
             </p>
           </div>
 

@@ -8,7 +8,7 @@ export default function Courses() {
   return (
     <section className="courses-section">
       <div className="courses-container">
-        <h2 className="courses-title">OUR COURSES</h2>
+        <h2 className="courses-title">OTHER COURSES</h2>
 
         {/* Competitive Exams */}
         <h3 className="category-title">COMPETITIVE EXAMS</h3>

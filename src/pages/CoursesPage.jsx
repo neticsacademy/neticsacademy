@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./CoursePage.css";
 import Ugc from "../components/Ugc";
 import Courses from "../components/Courses";
@@ -7,6 +8,7 @@ export default function CourseEligibility() {
   return (
 
     <section>
+     
       <div><Ugc /></div>
       <div><Courses /></div>
       <div className="eligibility-section">

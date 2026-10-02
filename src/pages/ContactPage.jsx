@@ -27,7 +27,7 @@ function ContactPage() {
           <FaPhoneAlt className="icon" />
           <h3>Call Us On</h3>
           <p>
-            <a href="tel:+918086024700">+91 80860 24 700</a>
+            <a href="tel:+918086024800">+91 80860 24 800</a>
           </p>
         </div>
 
@@ -35,7 +35,7 @@ function ContactPage() {
           <FaEnvelope className="icon" />
           <h3>Email Us</h3>
           <p>
-            <a href="mailto:neticsacademy@gmail.com">neticsacademy@gmail.com</a>
+            <a href="mailto:neticsitinnovations@gmail.com">neticsitinnovations@gmail.com</a>
           </p>
         </div>
 

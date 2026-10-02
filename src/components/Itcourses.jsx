@@ -26,7 +26,7 @@ function Itcourses() {
           {[...courses, ...courses].map((course, index) => (
             <a
               key={index}
-              href="https://neticsacademy.com/"
+              href="https://www.neticsacademy.com/courses/technical-courses"
               target="_blank"
               rel="noopener noreferrer"
               className="course-link"

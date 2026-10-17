@@ -173,7 +173,7 @@ function Navbar() {
 
           {/* Book Your Slot */}
           <a
-            href="https://forms.gle/CcPaiJoWxRFHbqeKA"
+            href="https://forms.gle/74Lx9UeXsCbUXNfr9"
             target="_blank"
             rel="noopener noreferrer"
             className={`btn btn-outline-success register-btn px-4 rounded-pill ${

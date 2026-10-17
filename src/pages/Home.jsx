@@ -1,10 +1,12 @@
-import Landing from "../components/Landing";
+// import Landing from "../components/Landing";
 import Courses from "../components/Courses";
 import Itcourses from "../components/Itcourses";
 import ContactWidget from "../components/ContactWidget";
 // import Mentors from "./Mentors";
-import MainPage from "../components/MainPage";
+// import MainPage from "../components/MainPage";
 import EventGallery from "../components/EventGallery";
+import NeticsIT from "../components/NeticsIT";
+import Ugc from "../components/Ugc";
 
 
 
@@ -12,9 +14,10 @@ import EventGallery from "../components/EventGallery";
 function Home() {
   return (
     <div>
-
-      <Landing />
-      <MainPage/>
+      <Ugc/>
+      {/* <Landing /> */}
+      <NeticsIT/>
+      {/* <MainPage/> */}
       {/* <Mentors/> */}
       <EventGallery/>
       <Courses/>

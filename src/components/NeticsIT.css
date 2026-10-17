@@ -1,0 +1,777 @@
+/* =========================================================
+   NETICS IT INNOVATIONS
+   Main Page Styles
+========================================================= */
+
+.netics-it-page {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  color: #15172b;
+  background: #ffffff;
+}
+
+.nit-container {
+  width: min(1180px, 92%);
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.nit-hero {
+  min-height: 680px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 10, 30, 0.96) 0%,
+      rgba(5, 10, 30, 0.88) 45%,
+      rgba(5, 10, 30, 0.35) 100%
+    ),
+    url("../img/netics-it-hero.png") center/cover no-repeat;
+}
+
+.nit-hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at 80% 50%,
+      rgba(255, 89, 0, 0.18),
+      transparent 35%
+    );
+}
+
+.nit-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.nit-hero-text {
+  max-width: 680px;
+  color: #ffffff;
+}
+
+.nit-small-title {
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+  color: #ff6b00;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.nit-hero h1 {
+  margin: 0;
+
+  font-size: clamp(46px, 6vw, 78px);
+  line-height: 1.02;
+
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.nit-hero h1 span {
+  color: #ff6b00;
+}
+
+.nit-hero p {
+  max-width: 600px;
+
+  margin: 28px 0;
+
+  color: rgba(255, 255, 255, 0.82);
+
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+/* Buttons */
+
+.nit-hero-buttons,
+.nit-contact-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.nit-btn {
+  min-height: 50px;
+
+  padding: 13px 25px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+.nit-btn-primary {
+  background: #ff6b00;
+  color: #ffffff;
+}
+
+.nit-btn-primary:hover {
+  background: #e85f00;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.nit-btn-outline {
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #ffffff;
+  background: transparent;
+}
+
+.nit-btn-outline:hover {
+  background: #ffffff;
+  color: #15172b;
+}
+
+.nit-btn-dark {
+  background: #15172b;
+  color: #ffffff;
+}
+
+.nit-btn-dark:hover {
+  background: #25294a;
+  color: #ffffff;
+}
+
+.nit-hero-points {
+  margin-top: 35px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.nit-about {
+  padding: 110px 0;
+  background: #ffffff;
+}
+
+.nit-about-grid {
+  display: grid;
+
+  grid-template-columns: 1.1fr 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+.nit-about-image {
+  position: relative;
+}
+
+.nit-image-card {
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+}
+
+.nit-image-card img {
+  width: 100%;
+  height: 600px;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+.nit-experience-card {
+  position: absolute;
+
+  right: -25px;
+  bottom: 30px;
+
+  width: 180px;
+
+  padding: 22px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+
+  background: #ff6b00;
+  color: #ffffff;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.nit-experience-card strong {
+  font-size: 42px;
+  line-height: 1;
+}
+
+.nit-experience-card span {
+  margin-top: 8px;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+.nit-section-label {
+  display: inline-block;
+
+  margin-bottom: 15px;
+
+  color: #ff6b00;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+.nit-about-content h2,
+.nit-section-heading h2 {
+  margin: 0 0 22px;
+
+  font-size: clamp(34px, 4vw, 48px);
+  line-height: 1.15;
+
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.nit-about-content h2 span,
+.nit-section-heading h2 span {
+  color: #ff6b00;
+}
+
+.nit-about-content p {
+  margin-bottom: 18px;
+
+  color: #656779;
+
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.nit-about-highlights {
+  margin-top: 30px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 15px;
+}
+
+.nit-about-highlights div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  background: #f6f7fa;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nit-about-highlights svg {
+  color: #ff6b00;
+  font-size: 20px;
+}
+
+
+/* =========================================================
+   TRAINING
+========================================================= */
+
+.nit-training {
+  padding: 110px 0;
+
+  background: #f7f8fb;
+}
+
+.nit-section-heading {
+  max-width: 700px;
+  margin: 0 auto 60px;
+
+  text-align: center;
+}
+
+.nit-section-heading p {
+  color: #696b7a;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.nit-training-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.nit-training-card {
+  position: relative;
+
+  min-height: 300px;
+
+  padding: 35px;
+
+  overflow: hidden;
+
+  border: 1px solid #e7e8ed;
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  transition: all 0.35s ease;
+}
+
+.nit-training-card:hover {
+  border-color: #ff6b00;
+
+  transform: translateY(-7px);
+
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.nit-card-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  border-radius: 10px;
+
+  background: #fff0e6;
+  color: #ff6b00;
+
+  font-size: 23px;
+}
+
+.nit-card-number {
+  position: absolute;
+
+  top: 30px;
+  right: 30px;
+
+  color: #e5e6ea;
+
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.nit-training-card h3 {
+  margin-bottom: 12px;
+
+  font-size: 21px;
+}
+
+.nit-training-card p {
+  margin-bottom: 22px;
+
+  color: #707280;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.nit-training-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #ff6b00;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   WHY NETICS
+========================================================= */
+
+.nit-why {
+  padding: 110px 0;
+
+  background: #ffffff;
+}
+
+.nit-features-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.nit-feature-card {
+  padding: 28px;
+
+  display: flex;
+  gap: 20px;
+
+  border: 1px solid #e8e9ed;
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  transition: 0.3s ease;
+}
+
+.nit-feature-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+}
+
+.nit-feature-icon {
+  min-width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background: #15172b;
+  color: #ffffff;
+
+  font-size: 19px;
+}
+
+.nit-feature-card h3 {
+  margin: 0 0 8px;
+
+  font-size: 17px;
+}
+
+.nit-feature-card p {
+  margin: 0;
+
+  color: #71727e;
+
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   CAREER CTA
+========================================================= */
+
+.nit-career {
+  padding: 100px 0;
+
+  background: #f7f8fb;
+}
+
+.nit-career-box {
+  position: relative;
+
+  min-height: 400px;
+
+  padding: 70px;
+
+  overflow: hidden;
+
+  border-radius: 14px;
+
+  background: #15172b;
+
+  color: #ffffff;
+}
+
+.nit-career-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 650px;
+}
+
+.nit-career-content h2 {
+  margin: 0 0 20px;
+
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.15;
+}
+
+.nit-career-content p {
+  max-width: 580px;
+
+  margin-bottom: 30px;
+
+  color: rgba(255, 255, 255, 0.72);
+
+  line-height: 1.8;
+}
+
+.nit-career-shapes {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+
+  width: 45%;
+  height: 100%;
+}
+
+.nit-circle {
+  position: absolute;
+
+  border-radius: 50%;
+}
+
+.circle-one {
+  width: 350px;
+  height: 350px;
+
+  right: -100px;
+  top: -100px;
+
+  background: rgba(255, 107, 0, 0.18);
+}
+
+.circle-two {
+  width: 220px;
+  height: 220px;
+
+  right: 100px;
+  bottom: -80px;
+
+  border: 1px solid rgba(255, 107, 0, 0.35);
+}
+
+.nit-career-icon {
+  position: absolute;
+
+  right: 120px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: #ff6b00;
+
+  font-size: 100px;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.nit-contact {
+  padding: 100px 0;
+
+  background: #ffffff;
+
+  text-align: center;
+}
+
+.nit-contact-content {
+  max-width: 750px;
+  margin: auto;
+}
+
+.nit-contact-content h2 {
+  margin: 0 0 20px;
+
+  font-size: clamp(36px, 5vw, 58px);
+  line-height: 1.1;
+}
+
+.nit-contact-content h2 span {
+  color: #ff6b00;
+}
+
+.nit-contact-content p {
+  margin-bottom: 30px;
+
+  color: #6c6e7b;
+
+  line-height: 1.8;
+}
+
+.nit-contact-buttons {
+  justify-content: center;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 992px) {
+
+  .nit-about-grid {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+  .nit-about-image {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .nit-training-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nit-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nit-career-shapes {
+    opacity: 0.5;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .nit-hero {
+    min-height: 620px;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(5, 10, 30, 0.92),
+        rgba(5, 10, 30, 0.78)
+      ),
+      url("../img/netics-it-hero.png") center/cover no-repeat;
+  }
+
+  .nit-hero h1 {
+    font-size: 48px;
+  }
+
+  .nit-hero p {
+    font-size: 15px;
+  }
+
+  .nit-hero-points {
+    gap: 12px;
+
+    flex-direction: column;
+  }
+
+  .nit-about,
+  .nit-training,
+  .nit-why,
+  .nit-career,
+  .nit-contact {
+    padding: 75px 0;
+  }
+
+  .nit-training-grid,
+  .nit-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nit-about-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .nit-image-card img {
+    height: 400px;
+  }
+
+  .nit-experience-card {
+    right: 15px;
+  }
+
+  .nit-career-box {
+    padding: 45px 30px;
+  }
+
+  .nit-career-shapes {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .nit-container {
+    width: 90%;
+  }
+
+  .nit-hero h1 {
+    font-size: 40px;
+
+    letter-spacing: -1px;
+  }
+
+  .nit-small-title {
+    font-size: 11px;
+
+    letter-spacing: 2px;
+  }
+
+  .nit-btn {
+    width: 100%;
+  }
+
+  .nit-image-card img {
+    height: 320px;
+  }
+
+  .nit-experience-card {
+    position: relative;
+
+    right: auto;
+    bottom: auto;
+
+    width: auto;
+
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

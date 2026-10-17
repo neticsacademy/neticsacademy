@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,12 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Section & Soft Gradient Background */
+/* Section & Soft Gradient Background 
 .about-section {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #ffe5e5, #d0ebff); /* soft light red & blue */
+  background: linear-gradient(135deg, #ffe5e5, #d0ebff); /* soft light red & blue 
   color: #1a1a1a;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
   overflow: hidden;
 }
 
-/* Floating soft shapes */
+/* Floating soft shapes 
 .shape {
   position: absolute;
   border-radius: 50%;
@@ -39,7 +39,7 @@
   100% { transform: translateY(0) translateX(0); }
 }
 
-/* Container */
+/* Container 
 .about-container {
   max-width: 1200px;
   width: 100%;
@@ -52,13 +52,13 @@
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #282a5d; /* soft red accent */
+  color: #282a5d; /* soft red accent 
 }
 .about-title::after {
   content: '';
   width: 120px;
   height: 5px;
-  background: #57aaff; /* soft blue underline */
+  background: #57aaff; /* soft blue underline 
   display: block;
   margin: 20px auto 0;
   border-radius: 3px;
@@ -72,7 +72,7 @@
   color: #1a1a1a;
 }
 
-/* Cards */
+/* Cards 
 .about-cards {
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
   display: flex;
   align-items: center;
   gap: 40px;
-  background: #ffffff; /* white card */
+  background: #ffffff; /* white card 
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
@@ -93,19 +93,19 @@
 .about-card:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 25px 50px rgba(0,0,0,0.2); }
 .about-card.reverse { flex-direction: row-reverse; }
 
-/* Circular Images */
+/* Circular Images 
 .about-image-circle { flex: 1; display: flex; justify-content: center; }
 .about-image-circle img {
   width: 200px;
   height: 200px;
   border-radius: 20%;
-  border: 3px solid #57aaff; /* soft blue border */
+  border: 3px solid #57aaff; /* soft blue border 
   object-fit: cover;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 .about-card:hover .about-image-circle img {
   transform: scale(1.1) rotate(1deg);
-  box-shadow: 0 10px 30px rgba(87,170,255,0.4); /* blue glow on hover */
+  box-shadow: 0 10px 30px rgba(87,170,255,0.4); /* blue glow on hover 
 }
 
 .about-text {
@@ -117,7 +117,7 @@
 .about-text h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
-  color: #282a5d; /* soft red headings */
+  color: #282a5d; /* soft red headings 
 }
 .about-text h2 a{
   text-decoration: none;
@@ -128,7 +128,7 @@
   line-height: 1.8;
   color: #333;
 }
-/* Remove image version */
+/* Remove image version 
 .about-card.no-image {
   justify-content: center;
   padding: 40px;
@@ -151,7 +151,7 @@
   color: #333;
 }
 
-/* Responsive */
+/* Responsive 
 @media (max-width: 992px) {
   .about-card { flex-direction: column; }
   .about-card.reverse { flex-direction: column; }
@@ -166,7 +166,7 @@
 /* .services-section {
   padding: 80px 20px;
   background: #f9fafb;
-} */
+} 
 
 .services-container {
   max-width: 1200px;
@@ -178,7 +178,7 @@
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #282a5d; /* soft red accent */
+  color: #282a5d; /* soft red accent 
 }
 
 .services-description {
@@ -190,7 +190,7 @@
 }
 .services-description span {
   font-weight: 600;
-  color: #282a5d; /* soft red accent */
+  color: #282a5d; /* soft red accent 
 }
 
 .services-layout {
@@ -225,7 +225,7 @@
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  text-align: left; /* ✅ Ensures left alignment of text */
+  text-align: left; /* ✅ Ensures left alignment of text 
 }
 
 .service-card:hover {
@@ -238,7 +238,7 @@
   font-size: 34px;
   color: #282a5d;
   flex-shrink: 0;
-  margin-top: 4px; /* ✅ Aligns icon with top of text */
+  margin-top: 4px; /* ✅ Aligns icon with top of text 
 }
 
 .service-card p {
@@ -246,15 +246,14 @@
   color: #333;
   line-height: 1.6;
   margin: 0;
-  text-align: left; /* ✅ Explicit left alignment */
+  text-align: left; /* ✅ Explicit left alignment 
 }
 
-/* Optional: make sure text doesn't get too close to edges */
+/* Optional: make sure text doesn't get too close to edges 
 .service-card p, .service-card .service-text {
   flex: 1;
 }
-
-/* Responsive */
+/* Responsive 
 @media (max-width: 1000px) {
   .services-layout {
     flex-direction: column;
@@ -265,4 +264,574 @@
     margin-bottom: 30px;
   }
 }
+ */
+/* ================================
+   ABOUT PAGE - NETICS IT INNOVATIONS
+================================ */
 
+.nit-about-page {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  color: #15172b;
+  font-family: "Poppins", sans-serif;
+}
+
+.nit-about-wrap {
+  width: min(1240px, 92%);
+  margin: 0 auto;
+}
+
+.nit-about-page a {
+  text-decoration: none;
+}
+
+/* Hero */
+
+.nit-about-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 340px;
+  padding: 75px 0;
+  background: linear-gradient(120deg, #09152e, #122b50 70%, #183b65);
+  color: #fff;
+}
+
+.nit-about-hero::after {
+  position: absolute;
+  right: -100px;
+  bottom: -180px;
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(255, 107, 0, 0.35);
+  border-radius: 50%;
+  content: "";
+}
+
+.nit-about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 107, 0, 0.15),
+      transparent 35%
+    );
+}
+
+.nit-about-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.nit-about-eyebrow,
+.nit-about-section-label {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #ff6b00;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.nit-about-hero h1 {
+  max-width: 900px;
+  margin: 0 0 20px;
+  font-size: clamp(36px, 5vw, 58px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.nit-about-hero h1 span,
+.nit-about-heading h2 span,
+.nit-about-copy h2 span,
+.nit-about-cta h2 span {
+  color: #ff6b00;
+}
+
+.nit-about-hero-content > p {
+  max-width: 650px;
+  margin-bottom: 25px;
+  color: #d5dbea;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.nit-about-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #c5cddd;
+  font-size: 13px;
+}
+
+.nit-about-breadcrumb a {
+  color: #ff8a36;
+}
+
+.nit-about-breadcrumb a:hover {
+  color: #fff;
+}
+
+/* Introduction */
+
+.nit-about-intro {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.nit-about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  align-items: center;
+  gap: 70px;
+}
+
+.nit-about-visual {
+  position: relative;
+  min-width: 0;
+}
+
+.nit-about-visual > img {
+  display: block;
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 14px;
+  box-shadow: 0 25px 60px rgba(12, 27, 53, 0.14);
+}
+
+.nit-about-image-badge {
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 24px;
+  border-radius: 10px;
+  background: #ff6b00;
+  color: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+.nit-about-image-badge > svg {
+  font-size: 32px;
+}
+
+.nit-about-image-badge strong,
+.nit-about-image-badge span {
+  display: block;
+}
+
+.nit-about-image-badge strong {
+  font-size: 16px;
+}
+
+.nit-about-image-badge span {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.nit-about-copy h2,
+.nit-about-heading h2 {
+  margin: 0 0 22px;
+  font-size: clamp(32px, 3.5vw, 46px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.nit-about-copy > p {
+  margin-bottom: 18px;
+  color: #656779;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.nit-about-strengths {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 25px 0 30px;
+}
+
+.nit-about-strength {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #292d43;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.nit-about-strength svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #ff6b00;
+}
+
+.nit-about-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 14px 24px;
+  border: 1px solid #ff6b00;
+  border-radius: 6px;
+  background: #ff6b00;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.nit-about-button:hover {
+  transform: translateY(-3px);
+  background: #e85f00;
+  border-color: #e85f00;
+  box-shadow: 0 10px 25px rgba(255, 107, 0, 0.2);
+}
+
+/* Mission and vision */
+
+.nit-about-purpose {
+  padding: 100px 0;
+  background: #f6f7fb;
+}
+
+.nit-about-heading {
+  max-width: 720px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.nit-about-heading > p {
+  color: #6b6e80;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.nit-about-purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.nit-about-purpose-card {
+  padding: 38px;
+  border: 1px solid #e8eaf0;
+  border-radius: 12px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.nit-about-purpose-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff6b00;
+  box-shadow: 0 18px 45px rgba(14, 28, 55, 0.08);
+}
+
+.nit-about-purpose-icon,
+.nit-about-value-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background: #fff0e6;
+  color: #ff6b00;
+  font-size: 24px;
+}
+
+.nit-about-purpose-card h3,
+.nit-about-value-card h3 {
+  margin: 0 0 14px;
+  color: #15172b;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.nit-about-purpose-card p,
+.nit-about-value-card p {
+  margin: 0;
+  color: #6b6e80;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+/* Core values */
+
+.nit-about-values {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.nit-about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.nit-about-value-card {
+  padding: 28px 24px;
+  border: 1px solid #e8eaf0;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.nit-about-value-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff6b00;
+  box-shadow: 0 15px 35px rgba(14, 28, 55, 0.07);
+}
+
+.nit-about-value-icon {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 22px;
+  font-size: 21px;
+}
+
+.nit-about-value-card h3 {
+  font-size: 17px;
+}
+
+.nit-about-value-card p {
+  font-size: 13px;
+}
+
+/* Call to action */
+
+.nit-about-cta {
+  padding: 80px 0;
+  background: #f6f7fb;
+}
+
+.nit-about-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 55px 60px;
+  border-radius: 14px;
+  background: #0c1730;
+  box-shadow: 0 20px 50px rgba(12, 23, 48, 0.12);
+}
+
+.nit-about-cta-inner > div {
+  max-width: 750px;
+}
+
+.nit-about-cta h2 {
+  margin: 0 0 15px;
+  color: #fff;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.nit-about-cta p {
+  margin: 0;
+  color: #c4cbd9;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.nit-about-cta-inner .nit-about-button {
+  flex-shrink: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .nit-about-intro-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .nit-about-visual > img {
+    height: 460px;
+  }
+
+  .nit-about-values-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .nit-about-cta-inner {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nit-about-hero {
+    min-height: 300px;
+    padding: 65px 0;
+  }
+
+  .nit-about-intro,
+  .nit-about-purpose,
+  .nit-about-values {
+    padding: 70px 0;
+  }
+
+  .nit-about-intro-grid,
+  .nit-about-purpose-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .nit-about-visual {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .nit-about-visual > img {
+    height: 480px;
+  }
+
+  .nit-about-image-badge {
+    right: 12px;
+  }
+
+  .nit-about-copy h2,
+  .nit-about-heading h2 {
+    font-size: 34px;
+  }
+
+  .nit-about-cta-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 35px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nit-about-wrap {
+    width: 90%;
+  }
+
+  .nit-about-hero h1 {
+    font-size: 34px;
+  }
+
+  .nit-about-hero-content > p {
+    font-size: 14px;
+  }
+
+  .nit-about-visual > img {
+    height: 350px;
+  }
+
+  .nit-about-image-badge {
+    bottom: 12px;
+    padding: 14px;
+  }
+
+  .nit-about-strengths,
+  .nit-about-values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nit-about-purpose-card {
+    padding: 28px;
+  }
+
+  .nit-about-heading h2,
+  .nit-about-copy h2 {
+    font-size: 30px;
+  }
+
+  .nit-about-cta-inner {
+    padding: 30px 22px;
+  }
+
+  .nit-about-cta-inner .nit-about-button {
+    width: 100%;
+  }
+}
+/* OUR CLIENTS & COLLABORATIONS */
+
+.nit-clients {
+  padding: 90px 0;
+  background: #f7f8fb;
+}
+
+.nit-clients-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.nit-client-logo {
+  min-height: 150px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #e8eaf0;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nit-client-logo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(12, 23, 48, 0.08);
+}
+
+.nit-client-logo img {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  height: 95px;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .nit-clients {
+    padding: 70px 0;
+  }
+
+  .nit-clients-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .nit-client-logo {
+    min-height: 125px;
+    padding: 18px;
+  }
+
+  .nit-client-logo img {
+    max-width: 180px;
+    height: 80px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 420px) {
+  .nit-clients-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .nit-client-logo {
+    min-height: 110px;
+    padding: 12px;
+  }
+
+  .nit-client-logo img {
+    height: 70px;
+  }
+}

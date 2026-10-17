@@ -1,0 +1,494 @@
+/* ======================================
+   NETICS IT INNOVATIONS - CONTACT PAGE
+====================================== */
+
+.nit-contact-page {
+  width: 100%;
+  overflow: hidden;
+  color: #15172b;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.nit-contact-container {
+  width: min(1240px, 92%);
+  margin: 0 auto;
+}
+
+.nit-contact-page a {
+  text-decoration: none;
+}
+
+/* Hero */
+
+.nit-contact-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 330px;
+  padding: 70px 0;
+  overflow: hidden;
+  background: linear-gradient(120deg, #08142c, #142d51 72%, #1c416a);
+  color: #fff;
+}
+
+.nit-contact-hero-glow {
+  position: absolute;
+  top: -160px;
+  right: -80px;
+  width: 450px;
+  height: 450px;
+  border: 1px solid rgba(255, 107, 0, 0.25);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 107, 0, 0.13),
+    transparent 68%
+  );
+}
+
+.nit-contact-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.nit-contact-eyebrow,
+.nit-contact-section-label {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #ff6b00;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.nit-contact-hero h1 {
+  margin: 0 0 18px;
+  font-size: clamp(36px, 5vw, 58px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.nit-contact-hero h1 span,
+.nit-contact-info h2 span,
+.nit-contact-bottom h2 span {
+  color: #ff6b00;
+}
+
+.nit-contact-hero-content > p {
+  max-width: 650px;
+  margin: 0 0 25px;
+  color: #d5dbea;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.nit-contact-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #c6cede;
+  font-size: 13px;
+}
+
+.nit-contact-breadcrumb a {
+  color: #ff8a36;
+}
+
+/* Main contact layout */
+
+.nit-contact-section {
+  padding: 95px 0;
+  background: #f7f8fb;
+}
+
+.nit-contact-layout {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: start;
+  gap: 65px;
+}
+
+/* Contact information */
+
+.nit-contact-info {
+  padding-top: 20px;
+}
+
+.nit-contact-info h2 {
+  margin: 0 0 20px;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+}
+
+.nit-contact-info-intro {
+  margin: 0 0 35px;
+  color: #6b6e80;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.nit-contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nit-contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  color: #15172b;
+}
+
+.nit-contact-icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: #fff0e6;
+  color: #ff6b00;
+  font-size: 19px;
+  transition: 0.3s ease;
+}
+
+.nit-contact-info-item:hover .nit-contact-icon {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.nit-contact-info-item > span:last-child {
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.nit-contact-info-item strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #15172b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nit-contact-info-item small {
+  display: block;
+  overflow-wrap: anywhere;
+  color: #6b6e80;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.nit-contact-help-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 40px;
+  padding: 24px;
+  border: 1px solid #f0d5c2;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.nit-contact-help-card > svg {
+  flex-shrink: 0;
+  color: #ff6b00;
+  font-size: 27px;
+}
+
+.nit-contact-help-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.nit-contact-help-card p {
+  margin: 0;
+  color: #6b6e80;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+/* Enquiry form */
+
+.nit-contact-form-card {
+  padding: 42px;
+  border: 1px solid #eceef3;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(16, 29, 55, 0.07);
+}
+
+.nit-contact-form-heading {
+  margin-bottom: 30px;
+}
+
+.nit-contact-form-heading h2 {
+  margin: 0 0 10px;
+  color: #15172b;
+  font-size: clamp(25px, 3vw, 32px);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.nit-contact-form-heading p {
+  margin: 0;
+  color: #747789;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.nit-contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 18px;
+}
+
+.nit-contact-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.nit-contact-field-full {
+  grid-column: 1 / -1;
+}
+
+.nit-contact-field label {
+  margin-bottom: 9px;
+  color: #25283d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nit-contact-field label span {
+  color: #ff6b00;
+}
+
+.nit-contact-field input,
+.nit-contact-field select,
+.nit-contact-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  padding: 13px 14px;
+  border: 1px solid #e2e5ec;
+  border-radius: 7px;
+  outline: none;
+  background: #fafbfc;
+  color: #15172b;
+  font-family: inherit;
+  font-size: 12px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.nit-contact-field textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.nit-contact-field input::placeholder,
+.nit-contact-field textarea::placeholder {
+  color: #9a9eac;
+}
+
+.nit-contact-field input:focus,
+.nit-contact-field select:focus,
+.nit-contact-field textarea:focus {
+  border-color: #ff6b00;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1);
+}
+
+.nit-contact-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 25px;
+  padding: 14px 22px;
+  border: 0;
+  border-radius: 7px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nit-contact-submit:hover {
+  transform: translateY(-2px);
+  background: #e85f00;
+  box-shadow: 0 10px 25px rgba(255, 107, 0, 0.2);
+}
+
+.nit-contact-form-note {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  margin: 17px 0 0;
+  color: #777b8b;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.nit-contact-form-note svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #1b9a67;
+}
+
+/* Bottom CTA */
+
+.nit-contact-bottom {
+  padding: 70px 0;
+  background: #fff;
+}
+
+.nit-contact-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 45px 50px;
+  border-radius: 13px;
+  background: #0c1730;
+}
+
+.nit-contact-bottom-inner > div {
+  max-width: 750px;
+}
+
+.nit-contact-bottom h2 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: clamp(27px, 3.5vw, 40px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.nit-contact-bottom p {
+  margin: 0;
+  color: #c5ccda;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.nit-contact-bottom-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 14px 22px;
+  border-radius: 6px;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.nit-contact-bottom-button:hover {
+  transform: translateY(-2px);
+  background: #e85f00;
+  color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .nit-contact-layout {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 35px;
+  }
+
+  .nit-contact-form-card {
+    padding: 30px;
+  }
+
+  .nit-contact-bottom-inner {
+    padding: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nit-contact-hero {
+    min-height: 290px;
+    padding: 60px 0;
+  }
+
+  .nit-contact-section {
+    padding: 65px 0;
+  }
+
+  .nit-contact-layout {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .nit-contact-info {
+    padding-top: 0;
+  }
+
+  .nit-contact-form-card {
+    padding: 28px;
+  }
+
+  .nit-contact-bottom-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 32px 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nit-contact-container {
+    width: 90%;
+  }
+
+  .nit-contact-hero h1 {
+    font-size: 34px;
+  }
+
+  .nit-contact-hero-content > p {
+    font-size: 13px;
+  }
+
+  .nit-contact-form-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .nit-contact-field-full {
+    grid-column: auto;
+  }
+
+  .nit-contact-form-card {
+    padding: 22px 18px;
+  }
+
+  .nit-contact-info h2 {
+    font-size: 32px;
+  }
+
+  .nit-contact-help-card {
+    padding: 18px;
+  }
+
+  .nit-contact-bottom-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

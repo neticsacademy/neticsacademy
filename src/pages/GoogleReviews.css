@@ -1,0 +1,407 @@
+
+/* =========================================
+   GOOGLE REVIEWS PAGE
+   NETICS IT INNOVATIONS
+   ========================================= */
+
+.gr-page {
+  width: 100%;
+  background: #fff;
+  color: #101a32;
+  overflow: hidden;
+}
+
+.gr-container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+
+/* HERO */
+
+.gr-hero {
+  padding: 100px 0;
+  background: #101a32;
+  color: #fff;
+}
+
+.gr-eyebrow {
+  display: inline-block;
+  color: #ff6b00;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 17px;
+}
+
+.gr-hero h1 {
+  max-width: 850px;
+  font-size: clamp(38px, 5.5vw, 65px);
+  line-height: 1.1;
+  margin: 0 0 20px;
+  font-weight: 800;
+}
+
+.gr-hero h1 span {
+  color: #ff6b00;
+}
+
+.gr-hero > .gr-container > p {
+  max-width: 700px;
+  color: #d5dce8;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* RATING SUMMARY */
+
+.gr-rating-summary {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.gr-google-mark,
+.gr-google-g,
+.gr-google-small {
+  font-weight: 800;
+  color: #4285f4;
+}
+
+.gr-google-mark {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.gr-rating-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.gr-rating-line strong {
+  font-size: 25px;
+}
+
+.gr-rating-summary > div:last-child > span {
+  color: #d5dce8;
+  font-size: 13px;
+}
+
+.gr-stars {
+  color: #f5a400;
+  font-size: 19px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+/* BUTTONS */
+
+.gr-primary-button {
+  display: inline-block;
+  padding: 15px 27px;
+  border-radius: 5px;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.gr-primary-button:hover {
+  background: #fff;
+  color: #101a32;
+}
+
+/* REVIEW SECTION */
+
+.gr-reviews-section {
+  padding: 90px 0;
+  background: #f5f7fb;
+}
+
+.gr-section-heading {
+  max-width: 700px;
+  margin-bottom: 35px;
+}
+
+.gr-section-heading h2 {
+  font-size: clamp(30px, 4vw, 44px);
+  margin: 0 0 15px;
+}
+
+.gr-section-heading p {
+  color: #687386;
+  line-height: 1.8;
+}
+
+/* FILTERS */
+
+.gr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.gr-filter {
+  padding: 10px 16px;
+  border: 1px solid #dfe3ea;
+  border-radius: 30px;
+  background: #fff;
+  color: #334155;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.gr-filter:hover,
+.gr-filter.active {
+  background: #101a32;
+  border-color: #101a32;
+  color: #fff;
+}
+
+/* REVIEW GRID */
+
+.gr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 23px;
+}
+
+.gr-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #e4e8ef;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.gr-card:hover {
+  transform: translateY(-5px);
+  border-color: #ff6b00;
+  box-shadow: 0 12px 30px rgba(16, 26, 50, 0.07);
+}
+
+/* REVIEWER */
+
+.gr-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.gr-avatar {
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #101a32;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.gr-reviewer {
+  min-width: 0;
+  flex: 1;
+}
+
+.gr-reviewer h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.gr-reviewer span {
+  font-size: 11px;
+  color: #9299a5;
+}
+
+.gr-google-g {
+  font-size: 23px;
+}
+
+/* REVIEW TEXT */
+
+.gr-card-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.gr-card-rating .gr-stars {
+  font-size: 16px;
+}
+
+.gr-card-rating > span {
+  color: #89909d;
+  font-size: 11px;
+}
+
+.gr-course-tag {
+  align-self: flex-start;
+  display: inline-block;
+  padding: 6px 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background: #fff1e8;
+  color: #e65d00;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.gr-review-text {
+  flex: 1;
+  margin: 0 0 22px;
+  color: #505b6d;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* CARD FOOTER */
+
+.gr-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 15px;
+  border-top: 1px solid #edf0f4;
+  font-size: 11px;
+  color: #89909d;
+}
+
+.gr-google-small {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.gr-verified-label {
+  text-align: right;
+}
+
+/* LOAD MORE */
+
+.gr-load-more {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.gr-load-more button {
+  padding: 14px 28px;
+  border: 1px solid #101a32;
+  border-radius: 5px;
+  background: #101a32;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gr-load-more button:hover {
+  background: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.gr-empty {
+  text-align: center;
+  color: #687386;
+  padding: 30px;
+}
+
+/* CTA */
+
+.gr-cta {
+  padding: 90px 0;
+  background: #101a32;
+  text-align: center;
+  color: #fff;
+}
+
+.gr-cta h2 {
+  font-size: clamp(30px, 4vw, 45px);
+  margin: 10px 0 15px;
+}
+
+.gr-cta p {
+  max-width: 650px;
+  margin: 0 auto 25px;
+  color: #d5dce8;
+  line-height: 1.8;
+}
+
+.gr-back-link {
+  display: inline-block;
+  margin-top: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.gr-back-link:hover {
+  color: #ff6b00;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+  .gr-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .gr-hero {
+    padding: 70px 0;
+  }
+
+  .gr-reviews-section {
+    padding: 65px 0;
+  }
+
+  .gr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gr-card {
+    padding: 22px;
+  }
+
+  .gr-filters {
+    gap: 8px;
+  }
+
+  .gr-filter {
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+
+  .gr-cta {
+    padding: 65px 0;
+  }
+
+  .gr-card-rating {
+    flex-wrap: wrap;
+  }
+}

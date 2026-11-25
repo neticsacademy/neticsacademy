@@ -137,12 +137,22 @@ function Navbar() {
 
 
             {/* Mentors */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/mentors"
                 className={`nav-link ${scrolled ? "scrolled" : ""}`}
               >
                 Mentors
+              </Link>
+
+            </li> */}
+             {/* Reviews */}
+            <li className="nav-item">
+              <Link
+                to="/reviews"
+                className={`nav-link ${scrolled ? "scrolled" : ""}`}
+              >
+                Reviews
               </Link>
             </li>
             

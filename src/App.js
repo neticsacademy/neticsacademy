@@ -10,7 +10,8 @@ import Faq from "./pages/Faq";
 import About from "./pages/About";
 import ITCourses from "./pages/It_courses";
 import Events from "./pages/Events";
-
+import CourseDetails from "./pages/CourseDetails";
+import GoogleReviews from "./pages/GoogleReviews";
 function App() {
   return (
     <BrowserRouter>
@@ -25,7 +26,10 @@ function App() {
         <Route path="/about" element={<About />} />
          <Route path="/faq" element={<Faq />} />
          <Route path="/courses/technical-courses" element={<ITCourses />}/>
+         <Route path="/courses/:slug" element={<CourseDetails />} />
          <Route path="/events" element={<Events />} />
+         <Route path="/reviews" element={<GoogleReviews />} />
+         
       </Routes>
       <Footer />
     </BrowserRouter>

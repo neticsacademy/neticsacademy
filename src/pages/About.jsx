@@ -152,6 +152,9 @@ import client5 from "../img/clients/client-5.png";
 import client6 from "../img/clients/client-6.jpg";
 import client7 from "../img/clients/client-7.png";
 import client8 from "../img/clients/client-8.png";
+import md from "../img/teams/managing-director.jpg";
+import am from "../img/teams/assistant-manager.jpg";
+import th from "../img/teams/technical-head.jpg";
 import "./About.css";
 
 export default function About() {
@@ -269,6 +272,77 @@ export default function About() {
           </div>
         </div>
       </section>
+
+{/* OUR LEADERSHIP TEAM */}
+<section className="nit-leadership">
+  <div className="nit-about-wrap">
+
+    <div className="nit-about-heading">
+      <span className="nit-about-section-label">
+        MEET OUR TEAM
+      </span>
+
+      <h2>
+        Our <span>Leadership Team</span>
+      </h2>
+
+      <p>
+        Meet the people leading our vision, operations,
+        and technical excellence.
+      </p>
+    </div>
+
+    <div className="nit-leadership-grid">
+
+      {/* MANAGING DIRECTOR */}
+      <div className="nit-leader-card">
+        <div className="nit-leader-image">
+          <img
+            src={md}
+            alt="Managing Director"
+          />
+        </div>
+
+        <div className="nit-leader-info">
+          <h3>Sivakumar R</h3>
+          <span>Managing Director</span>
+        </div>
+      </div>
+
+      {/* ASSISTANT MANAGER */}
+      <div className="nit-leader-card">
+        <div className="nit-leader-image">
+          <img
+            src={am}
+            alt="Assistant Manager"
+          />
+        </div>
+
+        <div className="nit-leader-info">
+          <h3>Prakash </h3>
+          <span>Assistant Manager</span>
+        </div>
+      </div>
+
+      {/* TECHNICAL HEAD */}
+      <div className="nit-leader-card">
+        <div className="nit-leader-image">
+          <img
+            src={th}
+            alt="Technical Head"
+          />
+        </div>
+
+        <div className="nit-leader-info">
+          <h3>Dohna A S</h3>
+          <span>Technical Head</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Mission and Vision */}
       <section className="nit-about-purpose">

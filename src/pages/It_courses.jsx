@@ -1,6 +1,20 @@
 import React from "react";
 import "./It_courses.css";
-const courseCategories = [
+import CCNAImage from "../img/courses/ccna.jpeg";
+import CCNPImage from "../img/courses/ccnp.jpeg";
+import CybersecurityImage from "../img/courses/cybersecurity.jpeg";
+import EthicalHackingImage from "../img/courses/ethical-hacking.jpeg";
+import AWSImage from "../img/courses/aws.jpeg";
+import FullStackImage from "../img/courses/fullstack.jpeg";
+import PythonImage from "../img/courses/python.jpeg";
+import JavaImage from "../img/courses/java.jpeg";
+import SoftwareTestingImage from "../img/courses/software-testing.jpeg";
+import PlaywrightImage from "../img/courses/playwright.jpeg";
+import UIUXImage from "../img/courses/uiux.jpeg";
+import VLSIImage from "../img/courses/vlsi.jpeg";
+import EmbeddedImage from "../img/courses/embedded.jpg";
+import { Link } from "react-router-dom";
+export const courseCategories = [
   {
     title: "NETWORKING & CYBERSECURITY",
     description:
@@ -8,6 +22,7 @@ const courseCategories = [
     courses: [
       {
         name: "CCNA",
+        image: CCNAImage,
         description:
           "Learn networking fundamentals, IP addressing, subnetting, routing, switching, VLANs and network troubleshooting.",
         topics: [
@@ -19,6 +34,7 @@ const courseCategories = [
       },
       {
         name: "CCNP",
+        image: CCNPImage,
         description:
           "Develop advanced networking skills covering enterprise networking, routing, switching and troubleshooting.",
         topics: [
@@ -30,6 +46,7 @@ const courseCategories = [
       },
       {
         name: "Cybersecurity",
+        image: CybersecurityImage,
         description:
           "Understand cybersecurity fundamentals, threats, vulnerabilities, network security and defensive practices.",
         topics: [
@@ -41,6 +58,7 @@ const courseCategories = [
       },
       {
         name: "Ethical Hacking",
+        image: EthicalHackingImage,
         description:
           "Learn ethical hacking concepts, vulnerability assessment, penetration testing and security tools.",
         topics: [
@@ -60,6 +78,7 @@ const courseCategories = [
     courses: [
       {
         name: "AWS",
+        image: AWSImage,
         description:
           "Learn Amazon Web Services including cloud infrastructure, storage, networking, security and deployment.",
         topics: [
@@ -80,6 +99,7 @@ const courseCategories = [
     courses: [
       {
         name: "Full Stack",
+        image: FullStackImage,
         description:
           "Learn complete web application development from frontend interfaces to backend APIs, databases and deployment.",
         topics: [
@@ -92,6 +112,7 @@ const courseCategories = [
       },
       {
         name: "Python",
+        image: PythonImage,
         description:
           "Learn Python programming from fundamentals to advanced concepts through practical exercises and projects.",
         topics: [
@@ -104,6 +125,7 @@ const courseCategories = [
       },
       {
         name: "Java",
+        image: JavaImage,
         description:
           "Build a strong foundation in Java programming, object-oriented programming and application development.",
         topics: [
@@ -124,6 +146,7 @@ const courseCategories = [
     courses: [
       {
         name: "Software Testing",
+        image: SoftwareTestingImage,
         description:
           "Learn manual testing, test case design, defect management, API testing and software testing methodologies.",
         topics: [
@@ -135,6 +158,7 @@ const courseCategories = [
       },
       {
         name: "Playwright Automation",
+        image: PlaywrightImage,
         description:
           "Learn modern web automation testing using Playwright and build practical automation test scripts.",
         topics: [
@@ -154,6 +178,7 @@ const courseCategories = [
     courses: [
       {
         name: "UI/UX",
+        image: UIUXImage,
         description:
           "Learn user interface and user experience principles to create intuitive and engaging digital products.",
         topics: [
@@ -165,6 +190,7 @@ const courseCategories = [
       },
       {
         name: "VLSI",
+        image: VLSIImage,
         description:
           "Explore VLSI design concepts, digital electronics, semiconductor fundamentals and IC design.",
         topics: [
@@ -176,6 +202,7 @@ const courseCategories = [
       },
       {
         name: "Embedded System",
+        image: EmbeddedImage,
         description:
           "Learn embedded systems, microcontrollers, programming, interfacing and practical applications.",
         topics: [
@@ -288,46 +315,49 @@ export default function ITCourses() {
                     className="it-course-card"
                     key={course.name}
                   >
+                    <div className="it-course-image">
+                      <img
+                        src={course.image}
+                        alt={`${course.name} training`}
+                        loading="lazy"
+                      />
+                    </div>
+                    <Link
+                      to={`/courses/${course.name
+                        .toLowerCase()
+                        .replace(/\s+/g, "-")
+                        .replace(/\//g, "-")}`}
+                      className="it-course-card"
+                      key={course.name}
+                    >
+                      <div className="it-course-card-top">
+                        <span className="it-course-number">
+                          {String(index + 1).padStart(2, "0")}
+                        </span>
 
-                    <div className="it-course-card-top">
-
-                      <span className="it-course-number">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-
-                      <div className="it-course-icon">
-                        {course.name.charAt(0)}
+                        <div className="it-course-icon">
+                          {course.name.charAt(0)}
+                        </div>
                       </div>
 
-                    </div>
+                      <h3>{course.name}</h3>
 
+                      <p className="it-course-description">
+                        {course.description}
+                      </p>
 
-                    <h3>{course.name}</h3>
+                      <div className="it-course-topics">
+                        {course.topics.map((topic) => (
+                          <span key={topic}>{topic}</span>
+                        ))}
+                      </div>
 
-                    <p className="it-course-description">
-                      {course.description}
-                    </p>
-
-
-                    <div className="it-course-topics">
-
-                      {course.topics.map((topic) => (
-                        <span key={topic}>
-                          {topic}
+                      <div className="it-course-card-footer">
+                        <span>
+                          View Course Details →
                         </span>
-                      ))}
-
-                    </div>
-
-
-                    <div className="it-course-card-footer">
-
-                      <a href="/contact">
-                        Enquire Now
-                        <span>→</span>
-                      </a>
-
-                    </div>
+                      </div>
+                    </Link>
 
                   </div>
 

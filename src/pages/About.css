@@ -835,3 +835,102 @@
     height: 70px;
   }
 }
+
+/* =========================================
+   LEADERSHIP TEAM
+   ========================================= */
+
+.nit-leadership {
+  padding: 90px 0;
+  background: #f6f7fa;
+}
+
+.nit-leadership .nit-about-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.nit-leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.nit-leader-card {
+  background: #ffffff;
+  border: 1px solid #e8eaf0;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.nit-leader-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px rgba(16, 26, 50, 0.10);
+  border-color: #ff6b00;
+}
+
+.nit-leader-image {
+  width: 100%;
+  height: 300px;
+  padding: 25px 25px 0;
+  background: #fff1e8;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.nit-leader-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px 8px 0 0;
+}
+
+.nit-leader-info {
+  padding: 25px 15px 28px;
+}
+
+.nit-leader-info h3 {
+  margin: 0 0 9px;
+  color: #101a32;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.nit-leader-info span {
+  color: #ff6b00;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .nit-leadership-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .nit-leadership {
+    padding: 65px 0;
+  }
+
+  .nit-leadership-grid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+  }
+
+  .nit-leader-image {
+    height: 320px;
+  }
+}

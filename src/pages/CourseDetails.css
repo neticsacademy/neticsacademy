@@ -1,0 +1,145 @@
+
+.course-details-page {
+  color: #101a32;
+  background: #fff;
+}
+
+.course-details-container {
+  width: 86%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.course-details-hero {
+  padding: 110px 0;
+  background: #101a32;
+  color: white;
+}
+
+.course-details-hero span,
+.course-details-label {
+  color: #ff6900;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.course-details-hero h1 {
+  font-size: clamp(38px, 5vw, 60px);
+  margin: 20px 0;
+}
+
+.course-details-hero h1 span {
+  color: #ff6900;
+}
+
+.course-details-hero p {
+  max-width: 750px;
+  line-height: 1.8;
+  color: #d5d9e2;
+  font-size: 17px;
+}
+
+.course-details-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #ff6900;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.course-overview {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.course-overview h2,
+.course-curriculum h2 {
+  font-size: 36px;
+  margin: 15px 0 25px;
+}
+
+.course-overview p {
+  max-width: 850px;
+  line-height: 1.9;
+  color: #626b7c;
+  font-size: 16px;
+}
+
+.course-curriculum {
+  padding: 85px 0;
+  background: #f5f7fb;
+}
+
+.course-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.course-topic-card {
+  background: white;
+  border: 1px solid #e5e8ef;
+  padding: 28px;
+  border-radius: 12px;
+}
+
+.course-topic-card span {
+  color: #ff6900;
+  font-weight: 700;
+}
+
+.course-topic-card h3 {
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+.course-details-cta {
+  padding: 85px 0;
+  text-align: center;
+}
+
+.course-details-cta h2 {
+  font-size: 34px;
+}
+
+.course-details-cta p {
+  color: #626b7c;
+  line-height: 1.8;
+}
+
+.back-courses {
+  display: inline-block;
+  margin-top: 25px;
+  color: #101a32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.course-not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+@media (max-width: 768px) {
+  .course-details-hero {
+    padding: 75px 0;
+  }
+
+  .course-details-container {
+    width: 90%;
+  }
+
+  .course-topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-overview h2,
+  .course-curriculum h2 {
+    font-size: 28px;
+  }
+}

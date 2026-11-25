@@ -238,7 +238,13 @@
    ========================================= */
 
 .it-courses-page .it-course-card {
+  display: flex;
+  flex-direction: column;
   position: relative;
+
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 
   padding: 30px;
 
@@ -247,21 +253,31 @@
   border: 1px solid #e6e6e6;
   border-radius: 8px;
 
+  color: #151515;
+  text-decoration: none;
+
+  overflow: hidden;
+
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
 }
 
-
 .it-courses-page .it-course-card:hover {
   transform: translateY(-6px);
-
   border-color: #ff6b00;
-
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
 
+.it-courses-page .it-course-card:visited {
+  color: #151515;
+}
+
+.it-courses-page .it-course-card:focus-visible {
+  outline: 2px solid #ff6b00;
+  outline-offset: 3px;
+}
 
 /* =========================================
    CARD TOP
@@ -358,47 +374,35 @@
   font-size: 11px;
 }
 
-
 /* =========================================
    CARD FOOTER
    ========================================= */
 
 .it-courses-page .it-course-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  box-sizing: border-box;
+
   padding-top: 18px;
+  margin-top: auto;
 
   border-top: 1px solid #eeeeee;
 }
 
-
-.it-courses-page .it-course-card-footer a {
-  display: flex;
-
-  justify-content: space-between;
-  align-items: center;
-
-  color: #151515;
-
-  text-decoration: none;
-
+.it-courses-page .it-course-card-footer span {
+  color: #ff6b00;
   font-size: 14px;
   font-weight: 700;
 
   transition: color 0.3s ease;
 }
 
-
-.it-courses-page .it-course-card-footer a span {
-  color: #ff6b00;
-
-  font-size: 21px;
+.it-courses-page .it-course-card:hover .it-course-card-footer span {
+  color: #151515;
 }
-
-
-.it-courses-page .it-course-card-footer a:hover {
-  color: #ff6b00;
-}
-
-
 /* =========================================
    CTA
    ========================================= */
@@ -464,7 +468,34 @@
   background: #ffffff;
   color: #111111;
 }
+/* COURSE CARD IMAGE */
 
+.it-courses-page .it-course-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  background: #f2f3f5;
+}
+
+.it-courses-page .it-course-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.it-courses-page .it-course-card:hover .it-course-image img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .it-courses-page .it-course-image {
+    height: 180px;
+  }
+}
 
 /* =========================================
    TABLET
